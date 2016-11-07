@@ -1,0 +1,263 @@
+<!DOCTYPE PATCH  SYSTEM "https://vvvv.org/versions/vvvv50debug34.106.dtd" >
+   <PATCH nodename="C:\Users\joreg\Documents\repos\vvvv\public\vvvv45\girlpower\Tutorials\Tutorial2.v4p" systemname="Tutorial2" filename="C:\Users\joreg\Documents\repos\vvvv\public\vvvv45\girlpower\Tutorials\Tutorial2.v4p">
+   <BOUNDS type="Window" left="13365" top="1650" width="11550" height="12270">
+   </BOUNDS>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="14" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="3450" top="4815" width="6480" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="3450" top="4815" width="6480" height="270">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|&lt; Hover the input pins of the Transform node with the mouse cursor to read their names|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="13" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="2835" top="1605" width="720" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="2835" top="1605" width="1335" height="405">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Tutorial 2|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="12">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="12" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="3615" top="2850" width="1560" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="3615" top="2850" width="1560" height="270">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Connecting Pins|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <NODE systemname="LFO (Animation)" nodename="LFO (Animation)" componentmode="Hidden" id="11">
+   <BOUNDS type="Node" left="2445" top="2205" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Period" visible="1" slicecount="1" values="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="Renderer (EX9)" componentmode="InABox" id="10" systemname="Renderer (EX9)">
+   <BOUNDS type="Node" left="1875" top="7170" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1875" top="7170" width="3180" height="3045">
+   </BOUNDS>
+   <BOUNDS type="Window" left="11250" top="10215" width="6240" height="5085">
+   </BOUNDS>
+   <PIN pinname="Layers" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="Quad (DX9)" nodename="Quad (DX9)" componentmode="Hidden" id="9">
+   <BOUNDS type="Node" left="1875" top="6480" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Transform" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="9" srcpinname="Layer" dstnodeid="10" dstpinname="Layers">
+   </LINK>
+   <NODE systemname="Transform (Transform 2d)" nodename="Transform (Transform 2d)" componentmode="Hidden" id="8">
+   <BOUNDS type="Node" left="2070" top="4935" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Transform Out" visible="1">
+   </PIN>
+   <PIN pinname="Rotate" visible="1" slicecount="1" values="0.466289736388717">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="7" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="2625" top="2625" width="5625" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="2625" top="2625" width="4620" height="480">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|&lt; Start a link with a left click on the output pin of the LFO node.|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="6" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="2655" top="3930" width="3615" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="2655" top="3930" width="4845" height="765">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|&lt; With the link following the mouse cursor hover the input pins of the Transform node with the mouse cursor to find the input labeled &quot;Rotation&quot; and click on it to finish the link.|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="5" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="3240" top="5895" width="255" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="3240" top="5895" width="3300" height="915">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|&lt; Note how two of the Quad&apos;s inputs have grown to show you they are willing to accept the link. Finish the link with a left cilck on the first of those two pins. |">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="4" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="2790" top="5310" width="5625" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="2790" top="5310" width="4620" height="480">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|&lt; Start a link with a left click on the output pin of the Transform node.|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="3" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="2655" top="3210" width="8595" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="2655" top="3210" width="4695" height="630">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Note how most of the inputs on the Transform nodes are now bigger, indicating that they would accept the connection.|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="11" srcpinname="Output" dstnodeid="8" dstpinname="Rotate">
+   </LINK>
+   <LINK srcnodeid="8" srcpinname="Transform Out" dstnodeid="9" dstpinname="Transform">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="2" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="5685" top="8490" width="1020" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="5685" top="8490" width="1815" height="1245">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Explanation:&cr;&lf;The LFO node returns a constantly changing value that goes from 0 to 1 and back...|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="String">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="1" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="6300" top="6870" width="6270" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="6300" top="6870" width="2550" height="735">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|&lt; Select a link by clicking on it and see it turn fat. Rightclick a selected link to delete it.|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="0" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="6480" top="7860" width="3420" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="6480" top="7860" width="3420" height="270">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Use CTRL+Z anytime to undo your last change.|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <PACK Name="addonpack" Version="34.101.0">
+   </PACK>
+   <NODE systemname="LanguageChooser" filename="%VVVV%\girlpower\Tutorials\LanguageChooser.v4p" nodename="%VVVV%\girlpower\Tutorials\LanguageChooser.v4p" componentmode="Hidden" id="17">
+   <BOUNDS type="Node" left="285" top="405" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Window" left="615" top="930" width="7845" height="13275">
+   </BOUNDS>
+   <PIN pinname="Languages" visible="1">
+   </PIN>
+   <PIN pinname="Choose Language" visible="1">
+   </PIN>
+   <PIN pinname="Available Languages" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="16" systemname="IOBox (String)">
+   <BOUNDS type="Box" left="285" top="1035" width="1020" height="1245">
+   </BOUNDS>
+   <BOUNDS type="Node" left="285" top="1035" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="5">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Input String" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="17" srcpinname="Available Languages" dstnodeid="16" dstpinname="Input String">
+   </LINK>
+   <NODE id="15" nodename="IOBox (Value Advanced)" componentmode="InABox" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Box" left="1395" top="1050" width="480" height="1215">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1395" top="1050" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="5" visible="1" values="0,0,0,0,0">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="Behavior" slicecount="1" values="Bang">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="5" values="0,0,0,0,0">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="5">
+   </PIN>
+   <PIN pinname="SliceCount Mode" slicecount="1" values="ColsRowsPages">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="15" srcpinname="Y Output Value" dstnodeid="17" dstpinname="Choose Language">
+   </LINK>
+   </PATCH>

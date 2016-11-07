@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entries>
+<Entry id="Subtitle" prefix="">
+<English>Changing values</English>
+<Deutsch>Werte verändern</Deutsch>
+</Entry>
+<Entry id="1" prefix="left">
+<English>Press the right mouse button in the value IOBox and drag the mouse up and down to change the value</English>
+<Deutsch>Drücke die rechte Maustaste in der Nummern-IOBox und ziehe die Maus nach oben oder unten um den Wert zu verstellen</Deutsch>
+</Entry>
+<Entry id="2" prefix="left">
+<English>Click the right mouse button in the string IOBox to edit the text</English>
+<Deutsch>Drücke die rechte Maustaste in der Text-IOBox um den Text zu bearbeiten</Deutsch>
+</Entry>
+<Entry id="3" prefix="left">
+<English>Rightclick the enumeration IOBox to choose a different font</English>
+<Deutsch>Drücke die rechte Maustaste in der Auswahl-IOBox um eine andere Schriftart auszuwählen</Deutsch>
+</Entry>
+</Entries>
