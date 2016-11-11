@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entries>
+<Entry id="Subtitle" prefix="">
+<English>Making Links.</English>
+<Deutsch>Werte verändern.</Deutsch>
+<Russian>Как соединять nodes.</Russian>
+</Entry>
+<Entry id="0" prefix="">
+<English>Oh, there are some missing links in this patch.
+You see the SpiralSpread node, which creates a list of 200 points, the points are then supplied to the Line node to draw small straight line segments between these points. Let's rotate the spiral.</English>
+<Deutsch></Deutsch>
+<Russian></Russian>
+</Entry>
+<Entry id="1" prefix="">
+<English>Start a link with a Left click on the 'Output' pin of the LFO node. Do not drag, just click on the pin and release the button, the link is started and follows the mouse now.
+
+Note how most of the inputs on the Transform node are now bigger, indicating that they would accept the connection.
+
+Hover the input pins of the Transform node with the mouse cursor to find the input labeled 'Rotation' and click on it to finish the link.
+</English>
+<Deutsch></Deutsch>
+<Russian></Russian>
+</Entry>
+<Entry id="2" prefix="">
+<English>Now start a link with a left click on the 'Output' pin of the Transform node.
+
+Note how one of the Line's inputs have grown to show you it is willing to accept the link.
+
+Finish the link with a Left click on the first of those two pins.
+</English>
+<Deutsch></Deutsch>
+<Russian></Russian>
+</Entry>
+<Entry id="3" prefix="">
+<English>
+Select a link by clicking it with the Left mouse button and see it turns fat. Click it now with the Right mouse button to delete it. Or just hit DEL key.
+</English>
+<Deutsch></Deutsch>
+<Russian></Russian>
+</Entry>
+<Entry id="4" prefix="">
+<English>
+Explanation:
+The LFO node returns a constantly changing value that goes from 0 to 1 and jumps back to 0 again...
+</English>
+<Deutsch></Deutsch>
+<Russian>
+- Используй CTRL+Z чтобы отменить любое последнее действие.
+</Russian>
+</Entry>
+<Entry id="5" prefix="">
+<English>
+- Use CTRL+Z anytime to undo your last change.
+- Select a link from the Color IOBox and hit CTRL+Y several time to switch between straight, curved and sqared link style. The styles are for visual cues only.
+</English>
+<Deutsch></Deutsch>
+<Russian>
+- Используй CTRL+Z чтобы отменить любое последнее действие.
+</Russian>
+</Entry>
+</Entries>
