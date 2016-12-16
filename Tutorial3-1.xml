@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entries>
+<Entry id="Subtitle" prefix="">
+  <English>Placing new nodes</English>
+  <Deutsch></Deutsch>
+  <Russian></Russian>
+</Entry>
+<Entry id="0" prefix="">
+  <English>
+Here are some moving particles connected with the lines and some unfinished calculations.
+Too many lines, right? Let's draw lines only between points lying close to each other.
+  </English>
+  <Deutsch></Deutsch>
+  <Russian></Russian>
+</Entry>
+<Entry id="1" prefix="">
+  <English>
+We need to calculate a distance between every point and ALL other points. In 2d space. There is a node for that.
+
+Double left click on a empty space in a patch. The Node Browser opens.
+
+Start typing 'Distance' and while you're doing it see how the Node Browser finds the suitable nodes. The first node in the list is the Distance (2d). This is what we need and it is already highlighted. Just press 'Enter' or click on it to add the node to the patch.
+  </English>
+  <Deutsch></Deutsch>
+  <Russian></Russian>
+</Entry>
+<Entry id="2" prefix="">
+  <English>
+Left click and drag the Distance node and place it close to the Zip node (right from it).
+
+Hover the mouse over two input pins:
+- 'XY1: (2)' one point having 2 values: x and y.
+- 'XY2: (2)' another point.
+
+Hover the mouse over the output pin, it says 'Distance:', just one value.
+  </English>
+  <Deutsch></Deutsch>
+  <Russian></Russian>
+</Entry>
+<Entry id="3" prefix="">
+  <English>
+Now, start a link from the 'Output' pin of the 'Damper' node (just left click on this pin, the link is following the mouse then) and connect it to the first input pin of the 'Distance' node. These are our points.
+
+Connect the second input pin of the 'Distance' node (left click on it) to the left 'Output' pin of the Select node, which is above the Zip.
+</English>
+  <Deutsch></Deutsch>
+  <Russian></Russian>
+</Entry>
+<Entry id="4" prefix="">
+  <English>
+Ok, almost finished. Just connect the output pin of the Distance node to the first input pin of the '&lt;' node just below it. Wow. Only those points are selected to draw a line between them which have a distance between them smaller than '0.2'.
+</English>
+  <Deutsch></Deutsch>
+  <Russian></Russian>
+</Entry>
+<Entry id="5" prefix="">
+  <English></English>
+  <Deutsch></Deutsch>
+  <Russian></Russian>
+</Entry>
+</Entries>
