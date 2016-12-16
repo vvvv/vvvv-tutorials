@@ -1,11 +1,11 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha34.106.dtd" >
-   <PATCH nodename="C:\Work\vvvv-tutorials\Tutorial2-1.v4p" scrollx="15" scrolly="0" systemname="Tutorial2-1" filename="C:\Work\vvvv-tutorials\Tutorial2-1.v4p" locked="0">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha34.107.dtd" >
+   <PATCH nodename="C:\Work\vvvv-tutorials\Tutorial2-1.v4p" scrollx="0" scrolly="0" systemname="Tutorial2-1" filename="C:\Work\vvvv-tutorials\Tutorial2-1.v4p" locked="0">
    <BOUNDS type="Window" left="1020" top="1365" width="12540" height="12630">
    </BOUNDS>
    <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="InABox" id="6">
-   <BOUNDS type="Node" left="3465" top="8025" width="100" height="100">
+   <BOUNDS type="Node" left="3015" top="8025" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="3465" top="8025" width="3210" height="3330">
+   <BOUNDS type="Box" left="3015" top="8025" width="3210" height="3330">
    </BOUNDS>
    <BOUNDS type="Window" left="14250" top="1350" width="6240" height="6585">
    </BOUNDS>
@@ -23,9 +23,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Color)" componentmode="InABox" id="19" systemname="IOBox (Color)">
-   <BOUNDS type="Box" left="4905" top="5175" width="435" height="420">
+   <BOUNDS type="Box" left="4410" top="5445" width="435" height="420">
    </BOUNDS>
-   <BOUNDS type="Node" left="4905" top="5175" width="0" height="0">
+   <BOUNDS type="Node" left="4410" top="5445" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Color Input" slicecount="1" visible="1" values="|0.99444,0.65891,0.00000,1.00000|">
    </PIN>
@@ -34,12 +34,12 @@
    <PIN pinname="Color Output" visible="1">
    </PIN>
    </NODE>
-   <PACK Name="addonpack" Version="34.101.0">
+   <PACK Name="addonpack" Version="35.0.0">
    </PACK>
    <NODE systemname="LanguageChooser" filename="LanguageChooser.v4p" nodename="%VVVV%\girlpower\Tutorials\LanguageChooser.v4p" componentmode="Hidden" id="43">
    <BOUNDS type="Node" left="180" top="225" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Window" left="615" top="930" width="7845" height="13275">
+   <BOUNDS type="Window" left="615" top="930" width="7845" height="14325">
    </BOUNDS>
    <PIN pinname="Languages" visible="1">
    </PIN>
@@ -101,7 +101,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="7575" top="1335" width="4335" height="1155">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Oh, there are some missing links in this patch.&lf;You see the SpiralSpread node, which creates a list of 200 points, the points are then supplied to the Line node to draw small straight line segments between these points. Let&apos;s rotate the spiral.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Oh, there are some missing links in this patch.&lf;You see the SpiralSpread node, which creates a list of 200 points, the points are then supplied to the Line to draw small straight line segments between these points. Let&apos;s rotate the spiral.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -115,9 +115,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="46" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="4890" top="2955" width="240" height="270">
+   <BOUNDS type="Node" left="4440" top="2955" width="240" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="4890" top="2955" width="405" height="495">
+   <BOUNDS type="Box" left="4440" top="2955" width="405" height="495">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="2.">
    </PIN>
@@ -165,9 +165,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="51" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="5265" top="1950" width="240" height="270">
+   <BOUNDS type="Node" left="4815" top="1950" width="240" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="5265" top="1950" width="480" height="495">
+   <BOUNDS type="Box" left="4815" top="1950" width="480" height="495">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="1.">
    </PIN>
@@ -199,9 +199,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="59" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="2940" top="7020" width="240" height="270">
+   <BOUNDS type="Node" left="2490" top="7020" width="240" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="2940" top="7020" width="480" height="495">
+   <BOUNDS type="Box" left="2490" top="7020" width="480" height="495">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="3.">
    </PIN>
@@ -267,7 +267,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="7575" top="10530" width="4275" height="1740">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|- Use CTRL+Z anytime to undo your last change.&lf;- Select a link from the Color IOBox and hit CTRL+Y several time to switch between straight, curved and sqared link style. The styles are for visual cues only.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|- Use CTRL+Z anytime to undo your last change.&lf;- Select a link from the Color IOBox and hit CTRL+Y several time to switch between: Straight, Curved and Squared link style.&lf;The styles are for visual cues only.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -281,9 +281,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="76" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="2265" top="9525" width="1005" height="270">
+   <BOUNDS type="Node" left="1815" top="9525" width="1005" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="2265" top="9525" width="1125" height="285">
+   <BOUNDS type="Box" left="1815" top="9525" width="1125" height="285">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|RENDERER &gt;|">
    </PIN>
@@ -310,8 +310,8 @@
    <PIN pinname="String Type" slicecount="1" values="MultiLine">
    </PIN>
    </NODE>
-   <NODE systemname="SpiralSpread (2d)" filename="..\vvvv-private\public-vl\VL.CoreLib.VVVV\vvvv\nodes\vl\VVVV.Spreads.vl" nodename="SpiralSpread (2d)" componentmode="Hidden" id="78">
-   <BOUNDS type="Node" left="3960" top="4620" width="100" height="100">
+   <NODE systemname="SpiralSpread (Spreads 2d)" filename="..\vvvv-private\public-vl\VL.CoreLib.VVVV\vvvv\nodes\vl\VVVV.Spreads.vl" nodename="SpiralSpread (2d)" componentmode="Hidden" id="78">
+   <BOUNDS type="Node" left="3510" top="4620" width="100" height="100">
    </BOUNDS>
    <PIN pinname="OutputXY" visible="1">
    </PIN>
@@ -325,7 +325,7 @@
    </PIN>
    </NODE>
    <NODE systemname="xyZ (3d XY)" nodename="xyZ (3d XY)" componentmode="Hidden" id="79">
-   <BOUNDS type="Node" left="3945" top="5205" width="100" height="100">
+   <BOUNDS type="Node" left="3495" top="5205" width="100" height="100">
    </BOUNDS>
    <PIN pinname="XYZ" visible="1">
    </PIN>
@@ -337,7 +337,7 @@
    <LINK srcnodeid="78" srcpinname="OutputXY" dstnodeid="79" dstpinname="XY">
    </LINK>
    <NODE systemname="Line (EX9)" filename="%VVVV%\lib\nodes\modules\EX9\Line (EX9).v4p" nodename="Line (EX9)" componentmode="Hidden" id="81">
-   <BOUNDS type="Node" left="3450" top="6360" width="100" height="100">
+   <BOUNDS type="Node" left="3000" top="6360" width="100" height="100">
    </BOUNDS>
    <PIN pinname="VerticesXYZ" visible="1">
    </PIN>
@@ -352,16 +352,20 @@
    </NODE>
    <LINK srcnodeid="79" srcpinname="XYZ" dstnodeid="81" dstpinname="VerticesXYZ">
    </LINK>
-   <LINK srcnodeid="19" srcpinname="Color Output" dstnodeid="81" dstpinname="Color" hiddenwhenlocked="0" linkstyle="PolyLine">
+   <LINK srcnodeid="19" srcpinname="Color Output" dstnodeid="81" dstpinname="Color" hiddenwhenlocked="0" linkstyle="Bezier">
+   <LINKPOINT x="4410" y="6150">
+   </LINKPOINT>
+   <LINKPOINT x="3840" y="6060">
+   </LINKPOINT>
    </LINK>
    <NODE systemname="LFO (Animation)" nodename="LFO (Animation)" componentmode="Hidden" id="85">
-   <BOUNDS type="Node" left="4425" top="2055" width="100" height="100">
+   <BOUNDS type="Node" left="3975" top="2055" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Output" visible="1">
    </PIN>
    </NODE>
    <NODE systemname="Transform (Transform 2d)" nodename="Transform (Transform 2d)" componentmode="Hidden" id="84">
-   <BOUNDS type="Node" left="3615" top="3060" width="100" height="100">
+   <BOUNDS type="Node" left="3165" top="3060" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Transform Out" visible="1">
    </PIN>
@@ -371,25 +375,7 @@
    </PIN>
    <PIN pinname="Z" slicecount="1" visible="1" values="0.488399114517961">
    </PIN>
-   <PIN pinname="Rotate" visible="1" slicecount="1" values="0.0559467631355801">
-   </PIN>
-   </NODE>
-   <NODE id="60" nodename="IOBox (String)" componentmode="InABox" systemname="IOBox (String)">
-   <PIN pinname="Input String" slicecount="1" visible="0" values="|Select a link by clicking it with the Left mouse button and see it turns fat. Click it now with the Right mouse button to delete it. Or just hit DEL key.|">
-   </PIN>
-   <BOUNDS type="Node" left="7575" top="8040" width="6150" height="270">
-   </BOUNDS>
-   <BOUNDS type="Box" left="7575" top="8040" width="4335" height="975">
-   </BOUNDS>
-   <PIN pinname="Output String" visible="0">
-   </PIN>
-   <PIN pinname="Show Grid" slicecount="1" values="0">
-   </PIN>
-   <PIN pinname="String Type" slicecount="1" values="MultiLine">
-   </PIN>
-   <PIN pinname="Tag" slicecount="1" values="|3&tab;|">
-   </PIN>
-   <PIN pinname="Size" slicecount="1" values="8">
+   <PIN pinname="Rotate" visible="1" slicecount="1" values="0.183961207221728">
    </PIN>
    </NODE>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="89" systemname="IOBox (String)">
@@ -427,9 +413,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="91" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Box" left="5040" top="4170" width="795" height="240">
+   <BOUNDS type="Box" left="4590" top="4170" width="795" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="5040" top="4170" width="0" height="0">
+   <BOUNDS type="Node" left="4590" top="4170" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="200">
    </PIN>
@@ -456,6 +442,26 @@
    <PIN pinname="String Type" slicecount="1" values="MultiLine">
    </PIN>
    <PIN pinname="Tag" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="8">
+   </PIN>
+   </NODE>
+   <PACK Name="dx11" Version="0.7.2">
+   </PACK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="93" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="7605" top="8040" width="6150" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="7605" top="8040" width="4245" height="765">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Select a link by clicking it with the Left mouse button and see it turns fat. Click it now with the Right mouse button to delete it. Or just hit DEL key.|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Tag" slicecount="1" values="3">
    </PIN>
    <PIN pinname="Size" slicecount="1" values="8">
    </PIN>

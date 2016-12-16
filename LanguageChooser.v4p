@@ -1,8 +1,8 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha34.106.dtd" >
-   <PATCH nodename="C:\Work\vvvv-tutorials\LanguageChooser.v4p" systemname="LanguageChooser" filename="C:\Users\joreg\Documents\repos\vvvv\public\vvvv45\girlpower\Tutorials\LanguageChooser.v4p" scrollx="0" scrolly="1860">
-   <BOUNDS type="Window" left="615" top="930" width="7845" height="13275">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha34.107.dtd" >
+   <PATCH nodename="C:\Work\vvvv-tutorials\LanguageChooser.v4p" systemname="LanguageChooser" filename="C:\Users\joreg\Documents\repos\vvvv\public\vvvv45\girlpower\Tutorials\LanguageChooser.v4p" scrollx="0" scrolly="780">
+   <BOUNDS type="Window" left="615" top="930" width="7845" height="14325">
    </BOUNDS>
-   <PACK Name="addonpack" Version="34.101.0">
+   <PACK Name="addonpack" Version="35.0.0">
    </PACK>
    <NODE id="17" systemname="Add (String)" nodename="Add (String)" componentmode="Hidden">
    <BOUNDS type="Node" left="795" top="10785" width="100" height="100">
@@ -83,9 +83,9 @@
    </PIN>
    </NODE>
    <NODE id="9" nodename="IOBox (String)" componentmode="InABox" systemname="IOBox (String)">
-   <BOUNDS type="Box" left="3105" top="10590" width="5580" height="1800">
+   <BOUNDS type="Box" left="3420" top="10620" width="2985" height="1995">
    </BOUNDS>
-   <BOUNDS type="Node" left="3105" top="10590" width="0" height="0">
+   <BOUNDS type="Node" left="3420" top="10620" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Default" slicecount="1" values="||">
    </PIN>
@@ -93,7 +93,7 @@
    </PIN>
    <PIN pinname="Maximum Characters" slicecount="1" values="-1">
    </PIN>
-   <PIN pinname="SliceOffset" slicecount="1" values="5">
+   <PIN pinname="SliceOffset" slicecount="1" values="4">
    </PIN>
    </NODE>
    <NODE id="5" systemname="Select (String)" nodename="Select (String)" componentmode="Hidden">
@@ -124,24 +124,6 @@
    <PIN pinname="Output" visible="1">
    </PIN>
    </NODE>
-   <NODE id="1" systemname="SetIO (String Tag)" filename="%VVVV%\lib\nodes\modules\String\SetIO (String Tag).v4p" nodename="SetIO (String Tag)" componentmode="Hidden" stayontop="0">
-   <BOUNDS type="Node" left="420" top="13125" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Patch" visible="1" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Value" visible="1">
-   </PIN>
-   <PIN pinname="Tag" visible="1" slicecount="2" values="|&lt; Press the right mouse button in the IOBox and drag the mouse up and down to change the value|,|&lt; Click the right mouse button in the IOBox to edit the text|">
-   </PIN>
-   <PIN pinname="Set" visible="1">
-   </PIN>
-   <PIN pinname="Spread" visible="1">
-   </PIN>
-   <BOUNDS type="Window" left="4215" top="6225" width="18810" height="9240">
-   </BOUNDS>
-   </NODE>
-   <LINK srcnodeid="0" srcpinname="Patch" dstnodeid="1" dstpinname="Patch">
-   </LINK>
    <LINK srcnodeid="2" srcpinname="Output" dstnodeid="3" dstpinname="Set">
    </LINK>
    <LINK srcnodeid="10" srcpinname="Value" dstnodeid="9" dstpinname="Input String">
@@ -187,9 +169,9 @@
    </PIN>
    </NODE>
    <NODE id="44" nodename="IOBox (String)" componentmode="InABox" systemname="IOBox (String)">
-   <BOUNDS type="Box" left="4140" top="4365" width="1110" height="270">
+   <BOUNDS type="Box" left="4020" top="4230" width="1110" height="270">
    </BOUNDS>
-   <BOUNDS type="Node" left="4140" top="4365" width="0" height="0">
+   <BOUNDS type="Node" left="4020" top="4230" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Input String" slicecount="1" values="Entry">
    </PIN>
@@ -484,8 +466,6 @@
    </LINK>
    <LINK srcnodeid="60" srcpinname="Success" dstnodeid="62" dstpinname="Input 1">
    </LINK>
-   <LINK srcnodeid="62" srcpinname="Output" dstnodeid="1" dstpinname="Set">
-   </LINK>
    <NODE systemname="Unzip (String)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Unzip (String)" componentmode="Hidden" id="63">
    <BOUNDS type="Node" left="4590" top="6090" width="100" height="100">
    </BOUNDS>
@@ -497,8 +477,6 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="46" srcpinname="Value" dstnodeid="63" dstpinname="Input">
-   </LINK>
-   <LINK srcnodeid="63" srcpinname="Output 1" dstnodeid="1" dstpinname="Tag">
    </LINK>
    <NODE systemname="Substitute (String)" nodename="Substitute (String)" componentmode="Hidden" id="64">
    <BOUNDS type="Node" left="5595" top="7290" width="100" height="100">
@@ -559,7 +537,7 @@
    <LINK srcnodeid="64" srcpinname="Output" dstnodeid="17" dstpinname="Input 1">
    </LINK>
    <NODE systemname="Clean (String)" nodename="Clean (String)" componentmode="Hidden" id="68">
-   <BOUNDS type="Node" left="945" top="12420" width="100" height="100">
+   <BOUNDS type="Node" left="795" top="11355" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1">
    </PIN>
@@ -567,6 +545,30 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="17" srcpinname="Output" dstnodeid="68" dstpinname="Input">
+   </LINK>
+   <PACK Name="dx11" Version="0.7.2">
+   </PACK>
+   <NODE id="1" systemname="SetIO (String Tag)" filename="%VVVV%\lib\nodes\modules\String\SetIO (String Tag).v4p" nodename="SetIO (String Tag)" componentmode="Hidden" stayontop="0">
+   <BOUNDS type="Node" left="465" top="11985" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Patch" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Value" visible="1">
+   </PIN>
+   <PIN pinname="Tag" visible="1" slicecount="2" values="|&lt; Press the right mouse button in the IOBox and drag the mouse up and down to change the value|,|&lt; Click the right mouse button in the IOBox to edit the text|">
+   </PIN>
+   <PIN pinname="Set" visible="1">
+   </PIN>
+   <PIN pinname="Spread" visible="1">
+   </PIN>
+   <BOUNDS type="Window" left="4215" top="6225" width="18810" height="9240">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="0" srcpinname="Patch" dstnodeid="1" dstpinname="Patch">
+   </LINK>
+   <LINK srcnodeid="62" srcpinname="Output" dstnodeid="1" dstpinname="Set">
+   </LINK>
+   <LINK srcnodeid="63" srcpinname="Output 1" dstnodeid="1" dstpinname="Tag">
    </LINK>
    <LINK srcnodeid="68" srcpinname="Output" dstnodeid="1" dstpinname="Spread">
    </LINK>
