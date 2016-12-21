@@ -1,6 +1,6 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha34.107.dtd" >
-   <PATCH nodename="C:\Work\vvvv-private\public\vvvv45\girlpower\Tutorials\Tutorial1.v4p" scrollx="0" scrolly="-1299" systemname="Tutorial1-1" filename="C:\Work\vvvv-tutorials\Tutorial1-1.v4p">
-   <BOUNDS type="Window" left="240" top="180" width="14685" height="11700">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.dtd" >
+   <PATCH nodename="C:\Users\joreg\Documents\repos\vvvv-tutorials\Tutorial1.v4p" scrollx="0" scrolly="-1299" systemname="Tutorial1-1" filename="C:\Work\vvvv-tutorials\Tutorial1-1.v4p">
+   <BOUNDS type="Window" left="2820" top="405" width="14490" height="12735">
    </BOUNDS>
    <NODE systemname="TypoSpread (Spreads)" nodename="TypoSpread (Spreads)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="4650" top="7365" width="100" height="100">
@@ -146,66 +146,6 @@
    </LINK>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
-   <NODE systemname="LanguageChooser" filename="%VVVV%\girlpower\Tutorials\LanguageChooser.v4p" nodename="%VVVV%\girlpower\Tutorials\LanguageChooser.v4p" componentmode="Hidden" id="43">
-   <BOUNDS type="Node" left="195" top="285" width="100" height="100">
-   </BOUNDS>
-   <BOUNDS type="Window" left="615" top="0" width="7845" height="14130">
-   </BOUNDS>
-   <PIN pinname="Languages" visible="1">
-   </PIN>
-   <PIN pinname="Choose Language" visible="1">
-   </PIN>
-   <PIN pinname="Available Languages" visible="1">
-   </PIN>
-   </NODE>
-   <NODE nodename="IOBox (String)" componentmode="InABox" id="42" systemname="IOBox (String)">
-   <BOUNDS type="Box" left="165" top="210" width="1035" height="915">
-   </BOUNDS>
-   <BOUNDS type="Node" left="165" top="210" width="0" height="0">
-   </BOUNDS>
-   <PIN pinname="Default" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="File Mask" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
-   </PIN>
-   <PIN pinname="Rows" slicecount="1" values="3">
-   </PIN>
-   <PIN pinname="Show Grid" slicecount="1" values="1">
-   </PIN>
-   <PIN pinname="Input String" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="43" srcpinname="Available Languages" dstnodeid="42" dstpinname="Input String">
-   </LINK>
-   <NODE id="41" nodename="IOBox (Value Advanced)" componentmode="InABox" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Box" left="1185" top="210" width="540" height="915">
-   </BOUNDS>
-   <BOUNDS type="Node" left="1185" top="210" width="0" height="0">
-   </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="3" visible="1" values="0,0,0">
-   </PIN>
-   <PIN pinname="Units" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Precision" slicecount="1" values="4">
-   </PIN>
-   <PIN pinname="Value Type" slicecount="1" values="Boolean">
-   </PIN>
-   <PIN pinname="Behavior" slicecount="1" values="Bang">
-   </PIN>
-   <PIN pinname="X Input Value" slicecount="3" values="0,0,0">
-   </PIN>
-   <PIN pinname="Rows" slicecount="1" values="3">
-   </PIN>
-   <PIN pinname="SliceCount Mode" slicecount="1" values="ColsRowsPages">
-   </PIN>
-   <PIN pinname="Y Output Value" visible="1">
-   </PIN>
-   <PIN pinname="Show Grid" slicecount="1" values="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="41" srcpinname="Y Output Value" dstnodeid="43" dstpinname="Choose Language">
-   </LINK>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="44" systemname="IOBox (String)">
    <BOUNDS type="Node" left="8940" top="4095" width="6150" height="270">
    </BOUNDS>
@@ -560,20 +500,6 @@
    </NODE>
    <LINK srcnodeid="80" srcpinname="Y Output Value" dstnodeid="78" dstpinname="Reset">
    </LINK>
-   <NODE nodename="IOBox (String)" componentmode="InABox" id="81" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="1905" top="315" width="2490" height="270">
-   </BOUNDS>
-   <BOUNDS type="Box" left="1905" top="315" width="1215" height="765">
-   </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|&lt; Rightclick &cr;&lf;to choose &cr;&lf;a language|">
-   </PIN>
-   <PIN pinname="Output String" visible="0">
-   </PIN>
-   <PIN pinname="Show Grid" slicecount="1" values="0">
-   </PIN>
-   <PIN pinname="String Type" slicecount="1" values="MultiLine">
-   </PIN>
-   </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="82" systemname="IOBox (Value Advanced)">
    <BOUNDS type="Box" left="4680" top="5625" width="450" height="240">
    </BOUNDS>
@@ -637,9 +563,9 @@
    </PIN>
    </NODE>
    <NODE systemname="Next" filename="%VVVV%\girlpower\Tutorials\Next.v4p" componentmode="Hidden" id="89" nodename="%VVVV%\girlpower\Tutorials\Next.v4p">
-   <BOUNDS type="Node" left="375" top="1500" width="100" height="100">
+   <BOUNDS type="Node" left="555" top="1890" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="375" top="1500" width="4800" height="3600">
+   <BOUNDS type="Box" left="555" top="1890" width="4800" height="3600">
    </BOUNDS>
    <BOUNDS type="Window" left="9570" top="1755" width="10290" height="7965">
    </BOUNDS>
@@ -647,9 +573,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="90" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Box" left="1200" top="1395" width="525" height="390">
+   <BOUNDS type="Box" left="1380" top="1785" width="525" height="390">
    </BOUNDS>
-   <BOUNDS type="Node" left="1200" top="1395" width="0" height="0">
+   <BOUNDS type="Node" left="1380" top="1785" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
    </PIN>
@@ -667,9 +593,9 @@
    <LINK srcnodeid="90" srcpinname="Y Output Value" dstnodeid="89" dstpinname="Open">
    </LINK>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="91" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="1905" top="1365" width="2220" height="270">
+   <BOUNDS type="Node" left="2085" top="1755" width="2220" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="1905" top="1365" width="1200" height="645">
+   <BOUNDS type="Box" left="2085" top="1755" width="1200" height="645">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|&lt; Rightclick for next Tutorial|">
    </PIN>
@@ -679,5 +605,11 @@
    </PIN>
    <PIN pinname="String Type" slicecount="1" values="MultiLine">
    </PIN>
+   </NODE>
+   <NODE systemname="LanguageChooser" filename="LanguageChooser.v4p" nodename="LanguageChooser.v4p" componentmode="InABox" id="93">
+   <BOUNDS type="Node" left="3075" top="4800" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" width="3090" height="1395" left="375" top="120">
+   </BOUNDS>
    </NODE>
    </PATCH>
