@@ -6,7 +6,7 @@ Welcome to your first steps in vvvv. Before you learn to create your own patches
 
 As you can see below, a patch consists of nodes (the gray boxes with text in them) and links (the black lines between them). Hover a node with the mouse to see a tooltip showing its full name. Hover the input and output pins (the dark little dots) of a node to see their names and current values.
 
-Follow the numbers and read the corresponding explanation on the right side to learn how to change some of the parameters that drive the animation in the renderer below.
+Follow the numbers and read the corresponding explanation on the right side to learn how to change some of the parameters that drive the animation in the Renderer below. To scroll down the patch, you may simply left-click on an empty place in the patch and then use the wheel button.
 </English>
 <Deutsch>
 Halo halo zu deinen ersten Schritten in vvvv. Bevor du lernst, deine eigenen patches zu bauen, zeigt dir dieses Tutorial wie man bei bestehnden patches Werte verändern kann.
@@ -22,6 +22,13 @@ Folge jetzt den Nummern und lies die zugehörige Beschreibung auf der rechten Se
 
 А теперь следуй номер за номером и читай соответствующее описание справа, чтобы узнать как изменять параметры, которые управляют анимацией в Renderer.
 </Russian>
+<Italiano>
+Benvenute e benvenuti al primo tutorial di vvvv. In questo tutorial imparerete ad interagire con una patch (un programma di vvvv), per poi essere in grado di muovervi in libertà e creare le vostre patch.
+
+Come potete vedere, una patch consiste di nodi, nodes, (i rettangoli grigi con del testo sopra) e collegamenti, links, (le linee nere che li congiungono). Sposta il puntatore del mouse su un nodo per vedere un suggerimento contenente il nome completo del nodo; sposta il cursore sui pin di input ed output (i quadratini scuri sul bordo inferiore e superiore di un nodo), per vedere i loro nomi ed i loro valori attuali.
+
+Segui la numerazione a destra e leggi la corrisponendente spiegazione per imparare a cambiare alcuni parametri che guidano l'animazione nel Renderer più in basso. Per scorrere in basso nella patch, clicca col sinistro in un punto vuoto e poi usa la rotellina del mouse.
+</Italiano>
 </Entry>
 <Entry id="1" prefix="">
 <English>
@@ -33,6 +40,9 @@ Dieser Node heisst Bang IOBox. Er ist mit dem Reset input des Nodes LFO verbunde
 <Russian>
 Эта node называет Bang IOBox. Она соединена с Reset input принадлежащего LFO node. Если кликнуть правой кнопкой мышки внутри IOBox, то LFO перезапустится.
 </Russian>
+<Italiano>
+Questo nodo è chiamato Bang IOBox (IOBox -> Box di Input ed Output). Questo è collegato al pin Reset del nodo LFO. Se clicchi col tasto destro su IOBox, resetterai LFO.
+</Italiano>
 </Entry>
 <Entry id="2" prefix="">
 <English>
@@ -44,6 +54,9 @@ Eine Value IOBox bedient man, indem man sie mit der rechten Maustaste drückt un
 <Russian>
 Нажми правой кнопкой мышки в Value IOBox, а затем, удерживая кнопку нажатой, поводи мышкой вверх и вниз, чтобы изменить значение. Это значение определяет сколько точек создаст TypoSpread расположенный ниже.
 </Russian>
+<Italiano>
+Clicca e tieni premuto il tasto destro su Value IOBox e trascina il mouse in alto ed in basso per cambiare il valore. Questo valore definisce quanti punti vengono generati dal node TypoSpread.
+</Italiano>
 </Entry>
 <Entry id="3" prefix="">
 <English>
@@ -55,6 +68,9 @@ Eine Enum IOBox bedient man durch einen klick mit der rechten Maustaste. Danach 
 <Russian>
 Кликни правой кнопокой мышки в Enumeration IOBox, чтобы выбрать другой шрифт.
 </Russian>
+<Italiano>
+Clicca col tasto destro su Enumeration IOBox per scegliere un font, tipo di carattere, differente.
+</Italiano>
 </Entry>
 <Entry id="4" prefix="">
 <English>
@@ -66,6 +82,9 @@ Das ist wieder eine Value IOBox. Um einen exakten Wert zu setzen kann man sie du
 <Russian>
 Это уже знакомый Value IOBox. Чтобы задать конкретное значение (вместо того, чтобы скроллить через них) щелкните внутри 2 раза левой кнопкой мышки и введите нужное значение. Это значение определяет как долго длится анимация между позициями точек.
 </Russian>
+<Italiano>
+Ancora un Value IOBox. Per impostarlo su un valore in particolare (invece che trascinare il mouse in su ed in giù), facci sopra un doppio click col tasto sinistro e digita un numero. Questo valore definisce il tempo necessario ad animare i punti tra due posizioni.
+</Italiano>
 </Entry>
 <Entry id="5" prefix="">
 <English>
@@ -92,6 +111,14 @@ Auch hier hält man die rechte Maustaste gedrückt und dann:
 - движение влево-вправо изменят тон
 - удерживание клавиши ALT и движение вверх-вниз изменяет прозрачность (Alpha).
 </Russian>
+<Italiano>
+Questo è un Color IOBox.
+Premici sopra il tasto destro e muovi il mouse:
+-su e giù per cambiare la luminosità
+-su e giù tenendo premuto il tasto CTRL per cambiare la saturazione
+-a destra e sinistra per cambiare la tonalità
+-su e giù tenendo premuto il tasto ALT per cambiare la trasparenza (valore alpha)
+</Italiano>
 </Entry>
 <Entry id="6" prefix="">
 <English>
@@ -103,6 +130,9 @@ Für weitere Details zur IOBox, siehe:
 <Russian>
 Подробнее об использовании IOBox:
 </Russian>
+<Italiano>
+Per altri dettagli su IOBox:
+</Italiano>
 </Entry>
 
 </Entries>
