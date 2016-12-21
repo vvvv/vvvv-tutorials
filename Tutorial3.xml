@@ -4,6 +4,7 @@
   <English>Making Links.</English>
   <Deutsch>Links ziehen.</Deutsch>
   <Russian>Как соединять nodes.</Russian>
+  <Italiano>Creare link (Ovvero: come far comunicare tra loro i nodi)</Italiano>
 </Entry>
 
 <Entry id="0" prefix="">
@@ -20,6 +21,9 @@ Du siehst den SpiralSpread Node, der einen Spread (eine Liste) an 200 Punkten ge
 Видишь, SpiralSpread node создает Spread (список) из 200 точек, эти точки идут в Point node (через Multiply node), которая их отрисовывает.
 Давай покрутим спираль.
   </Russian>
+  <Italiano>
+Mancano dei link in questa patch! Trovate il nodo SpiralSpread; questo genera uno spread (una lista) di 200 punti che poi vengono inviati, attravarso un nodo Multiply, al nodo Point, per essere quindi disegnati. Proviamo a ruotare la spirale!
+  </Italiano>
 </Entry>
 
 <Entry id="1" prefix="">
@@ -28,7 +32,7 @@ Start a link with a left click on the 'Output' pin of the LFO node. Do not drag,
 
 Note how most of the inputs on the Transform node are now bigger, indicating that they would accept the connection.
 
-Hover the input pins of the Transform node with the mouse cursor to find the input labeled 'Rotate' and click on it to finish the link.
+Hover the input pins of the Transform node with the mouse cursor to find the input labeled 'Rotate' and left-click on it to finish the link.
   </English>
   <Deutsch>
 Starte einen Link mit einem Klick auf den 'Output' Pin des LFO Nodes. Nicht ziehen, nur ein einfacher Klick! Jetzt folgt der Link der Maus und du kannst soviele Zwischenpunkte setzten wie du willst.
@@ -44,6 +48,13 @@ Suche den Input mit der Bezeichnung 'Rotate' und klicke auf ihn um den Link zu s
 
 Найди input, который называется 'Rotate' и щелкни по нему левой кнопкой, чтобы присоедить link.
   </Russian>
+  <Italiano>
+Creiamo un link cliccando col sinistro sul pin 'Output' del nodo LFO. Non trascinare, clicca sul pin e lascia il pulsante del mouse: il link viene creato, segue il mouse e puoi creare quanti punti intermedi preferisci.
+
+Nota come molti pin del nodo Transform siano ora più grandi, suggerendoti così quali accettano di essere collegati.
+
+Sposta il mouse sopra gli input pin del nodo Transform per trovare quello chiamato 'Rotate', e clicca di nuovo col sinistro per completare il link.
+  </Italiano>
 </Entry>
 
 <Entry id="2" prefix="">
@@ -68,6 +79,13 @@ Schliesse den Link mit einem Klick auf diesen Pin ab und du solltest sehen, dass
 
 Закончи link кликнув левой кнопкой мышки по этому pin и увидишь, что спираль вращается.
   </Russian>
+  <Italiano>
+Ora inizia un altro collegamento dal pin 'Output' del nodo Transform.
+
+Nota come il primo pin del nodo Multiply è più grande, indicando così che è pronto ad accogliere il polline, cioè, volevo dire, il collegamento.
+
+Completa il link con un clic del tasto sinistro su quel pin: la spirale adesso dovrebbe muoversi.
+  </Italiano>
 </Entry>
 
 <Entry id="3" prefix="">
@@ -86,6 +104,11 @@ Der Rechtsklick funktioniert auch um einen Link, der gerade an der Maus hängt a
 
 Кстати, при создании нового link, щелчек правой кнопкой мышки отменяет операцию (обрывает link, тянущийся за мышкой).
   </Russian>
+  <Italiano>
+Per rimuovere un link, selezionalo col tasto sinistro, e poi cliccaci col tasto destro (oppure premi Canc\DEL).
+
+Inoltre, mentre generi un link, puoi cliccare col destro per cancellare l'operazione.
+  </Italiano>
 </Entry>
 
 <Entry id="4" prefix="">
@@ -98,5 +121,8 @@ Für weitere Details zum Ziehen von Links, siehe:
   <Russian>
 Подробнее о соединении nodes:
   </Russian>
+  <Italiano>
+Per altri dettagli su IOBox:
+</Italiano>
 </Entry>
 </Entries>

@@ -1,5 +1,5 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha34.107.dtd" >
-   <PATCH nodename="C:\Work\vvvv-private\public\vvvv45\girlpower\Tutorials\Tutorial3.v4p" scrollx="30" scrolly="-432" systemname="Tutorial2-1" filename="C:\Work\vvvv-tutorials\Tutorial2-1.v4p" locked="0">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.dtd" >
+   <PATCH nodename="D:\vvvv\github\tutorials\vvvv-tutorials\Tutorial3.v4p" scrollx="30" scrolly="-432" systemname="Tutorial2-1" filename="C:\Work\vvvv-tutorials\Tutorial2-1.v4p" locked="0">
    <BOUNDS type="Window" left="525" top="1455" width="13455" height="11700">
    </BOUNDS>
    <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="InABox" id="6">
@@ -41,7 +41,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8475" top="1335" width="4335" height="1155">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|О, тут, кажется некоторые nodes не соединены.&lf;Видишь, SpiralSpread node создает Spread (список) из 200 точек, эти точки идут в Point node (через Multiply node), которая их отрисовывает.&lf;Давай покрутим спираль.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Oh, there are some links missing in this patch.&lf;You see the SpiralSpread node, which creates a spread (a list) of 200 points that are then supplied to the Point node (via a Multiply node) to draw them. Let&apos;s rotate the spiral.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -75,7 +75,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8475" top="2910" width="4320" height="3135">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|У LFO node начни link левым щелчком мыши по &apos;Output&apos; pin. Не удерживай левую кнопку! Просто щелкни по pin. Теперь линк сам тянется за мышкой. Ты можешь делать сколько угодно промежуточных точек просто щелкая левой кнопкой мышки в пустое место в patch.&lf;&lf;Смотри, большинство input pins у Transform node увеличились, это значит, что к ним можно присоединить link.&lf;&lf;Найди input, который называется &apos;Rotate&apos; и щелкни по нему левой кнопкой, чтобы присоедить link.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Start a link with a left click on the &apos;Output&apos; pin of the LFO node. Do not drag, just click on the pin and release the button, the link is started and follows the mouse now and you can place as many inbetween points as you like.&lf;&lf;Note how most of the inputs on the Transform node are now bigger, indicating that they would accept the connection.&lf;&lf;Hover the input pins of the Transform node with the mouse cursor to find the input labeled &apos;Rotate&apos; and left-click on it to finish the link.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -125,7 +125,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8475" top="6075" width="4380" height="2160">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Теперь начни новый link щелкнув по &apos;Output&apos; pin у Transform node.&lf;&lf;После этого у Multiply node первый input pin станет больше, показывая, что к нему можно присоединить этот link.&lf;&lf;Закончи link кликнув левой кнопкой мышки по этому pin и увидишь, что спираль вращается.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Now start a link with a left click on the &apos;Output&apos; pin of the Transform node.&lf;&lf;Note how the first input pin on the Multiply node has grown to show you it is willing to accept the link.&lf;&lf;Finish the link with a left click on the that pin and you should see the spiral spin.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -175,7 +175,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="5925" top="795" width="4440" height="315">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Как соединять nodes.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Making Links.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -202,7 +202,7 @@
    <PIN pinname="Size" slicecount="1" values="8">
    </PIN>
    </NODE>
-   <NODE systemname="SpiralSpread (Spreads 2d)" filename="..\..\..\..\public-vl\VL.CoreLib.VVVV\vvvv\nodes\vl\VVVV.Spreads.vl" nodename="SpiralSpread (2d)" componentmode="Hidden" id="78">
+   <NODE systemname="SpiralSpread (Spreads 2d)" filename="%VVVV%\lib\packs\VL.CoreLib.VVVV.0.47.149-g29575610a3\vvvv\nodes\vl\VVVV.Spreads.vl" nodename="SpiralSpread (2d)" componentmode="Hidden" id="78">
    <BOUNDS type="Node" left="4725" top="4620" width="100" height="100">
    </BOUNDS>
    <PIN pinname="OutputXY" visible="1">
@@ -291,7 +291,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8475" top="8340" width="4260" height="1995">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Чтобы удалить link, щелкни сначала по нему левой кнопкой мышки, чтобы выделить его. Теперь щелкни по нему правой кнопкой мышки или нажми просто клавишу DEL, чтобы удалить его.&lf;&lf;Кстати, при создании нового link, щелчек правой кнопкой мышки отменяет операцию (обрывает link, тянущийся за мышкой).|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|To remove a link, first select it by clicking it with the left mouse button. Then click it with the right mouse button or press the DEL key to delete it.&lf;&lf;Also while making a link you can always press the right mouse button to cancel the operation.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -309,7 +309,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8475" top="10575" width="4200" height="345">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Подробнее о соединении nodes:|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|For more details on linking nodes, see:|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -387,7 +387,7 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="105" systemname="IOBox (String)">
-   <BOUNDS type="Box" left="345" top="315" width="1035" height="915">
+   <BOUNDS type="Box" left="345" top="315" width="1035" height="1020">
    </BOUNDS>
    <BOUNDS type="Node" left="345" top="315" width="0" height="0">
    </BOUNDS>
@@ -397,7 +397,7 @@
    </PIN>
    <PIN pinname="Maximum Characters" slicecount="1" values="-1">
    </PIN>
-   <PIN pinname="Rows" slicecount="1" values="3">
+   <PIN pinname="Rows" slicecount="1" values="4">
    </PIN>
    <PIN pinname="Show Grid" slicecount="1" values="1">
    </PIN>
@@ -407,11 +407,11 @@
    <LINK srcnodeid="106" srcpinname="Available Languages" dstnodeid="105" dstpinname="Input String">
    </LINK>
    <NODE id="104" nodename="IOBox (Value Advanced)" componentmode="InABox" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Box" left="1365" top="315" width="540" height="915">
+   <BOUNDS type="Box" left="1365" top="315" width="540" height="1020">
    </BOUNDS>
    <BOUNDS type="Node" left="1365" top="315" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="3" visible="1" values="0,0,0">
+   <PIN pinname="Y Input Value" slicecount="4" visible="1" values="0,0,0,0">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -421,9 +421,9 @@
    </PIN>
    <PIN pinname="Behavior" slicecount="1" values="Bang">
    </PIN>
-   <PIN pinname="X Input Value" slicecount="3" values="0,0,0">
+   <PIN pinname="X Input Value" slicecount="4" values="0,0,0,0">
    </PIN>
-   <PIN pinname="Rows" slicecount="1" values="3">
+   <PIN pinname="Rows" slicecount="1" values="4">
    </PIN>
    <PIN pinname="SliceCount Mode" slicecount="1" values="ColsRowsPages">
    </PIN>
@@ -449,9 +449,9 @@
    </PIN>
    </NODE>
    <NODE systemname="Next" filename="%VVVV%\girlpower\Tutorials\Next.v4p" componentmode="Hidden" id="100" nodename="%VVVV%\girlpower\Tutorials\Next.v4p">
-   <BOUNDS type="Node" left="555" top="1605" width="100" height="100">
+   <BOUNDS type="Node" left="555" top="2205" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="555" top="1605" width="4800" height="3600">
+   <BOUNDS type="Box" left="555" top="2205" width="4800" height="3600">
    </BOUNDS>
    <BOUNDS type="Window" left="9570" top="1755" width="10290" height="7965">
    </BOUNDS>
@@ -459,9 +459,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="99" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Box" left="1380" top="1500" width="525" height="390">
+   <BOUNDS type="Box" left="1380" top="2100" width="525" height="390">
    </BOUNDS>
-   <BOUNDS type="Node" left="1380" top="1500" width="0" height="0">
+   <BOUNDS type="Node" left="1380" top="2100" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
    </PIN>
@@ -479,9 +479,9 @@
    <LINK srcnodeid="99" srcpinname="Y Output Value" dstnodeid="100" dstpinname="Open">
    </LINK>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="98" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="2085" top="1470" width="2220" height="270">
+   <BOUNDS type="Node" left="2085" top="2070" width="2220" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="2085" top="1470" width="1200" height="645">
+   <BOUNDS type="Box" left="2085" top="2070" width="1200" height="645">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|&lt; Rightclick for next Tutorial|">
    </PIN>
