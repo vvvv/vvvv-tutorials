@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.dtd" >
-   <PATCH nodename="C:\Users\joreg\Documents\repos\vvvv-tutorials\Tutorial1.v4p" scrollx="0" scrolly="-1299" systemname="Tutorial1-1" filename="C:\Work\vvvv-tutorials\Tutorial1-1.v4p">
+   <PATCH nodename="C:\Users\joreg\Documents\repos\vvvv-tutorials\Tutorial1.v4p" scrollx="0" scrolly="0" systemname="Tutorial1-1" filename="C:\Work\vvvv-tutorials\Tutorial1-1.v4p">
    <BOUNDS type="Window" left="2820" top="405" width="14490" height="12735">
    </BOUNDS>
    <NODE systemname="TypoSpread (Spreads)" nodename="TypoSpread (Spreads)" componentmode="Hidden" id="0">
@@ -151,7 +151,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8940" top="4095" width="4335" height="1155">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Эта node называет Bang IOBox. Она соединена с Reset input принадлежащего LFO node. Если кликнуть правой кнопкой мышки внутри IOBox, то LFO перезапустится.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|This node is called a Bang IOBox. Here it is connected to the Reset input of the LFO node. If you rightclick the IOBox it will reset the LFO.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -201,7 +201,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8940" top="5370" width="4305" height="1275">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Нажми правой кнопкой мышки в Value IOBox, а затем, удерживая кнопку нажатой, поводи мышкой вверх и вниз, чтобы изменить значение. Это значение определяет сколько точек создаст TypoSpread расположенный ниже.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Press and hold the right mouse button in the Value IOBox and drag the mouse up and down to change the value. This value defines how many points the TypoSpread node generates.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -277,7 +277,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8940" top="6765" width="4320" height="1035">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Кликни правой кнопокой мышки в Enumeration IOBox, чтобы выбрать другой шрифт.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Click the right mouse button in Enumeration IOBox to choose a different font.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -327,7 +327,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8940" top="7905" width="4335" height="1575">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Это уже знакомый Value IOBox. Чтобы задать конкретное значение (вместо того, чтобы скроллить через них) щелкните внутри 2 раза левой кнопкой мышки и введите нужное значение. Это значение определяет как долго длится анимация между позициями точек.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|This is again a Value IOBox. To set it to a particular value (instead of scrolling through the them) doubleclick the left mouse button inside it and type a number. This value defines how long it takes to animate between the points positions.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -393,7 +393,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8940" top="9570" width="4515" height="2745">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|А это Color IOBox.&lf;Нажми в нем правой кнопкой мышки и удерживая ее:&lf;- движение вверх-вниз изменяет яркость цвета&lf;- удерживание клавиши CTRL и движение вверх-вниз изменяет насыщенность цвета&lf;- движение влево-вправо изменят тон&lf;- удерживание клавиши ALT и движение вверх-вниз изменяет прозрачность (Alpha).|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|And this is the Color IOBox.&lf;Press the right mouse button inside it and:&lf;- move the mouse up-and-down to change the brightness&lf;- hold the CTRL key pressed and move the mouse up-and-down to change the saturation&lf;- move the mouse left-and-right to change the hue&lf;- hold the ALT key pressed and move up-and-down to change transparency (alpha)|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -427,7 +427,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="4725" top="660" width="6945" height="3150">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Привет твоим первым шагам в vvvv! Перед тем как ты научишься делать свои собственные patches, этот туториал покажет тебе как изменять значения в уже готовых patches.&lf;&lf;Внизу - patch, он состоит из nodes (серые коробочки с текстом) и links (черные линии между ними). Проведи мышкой над node и tooltip покажет тебе ее полное имя. Проведи мышкой над Input или Output pins (маленькие черные квадраты сверху и снизу node) и tooltip покажет как они называются и какое сейчас у них значение.&lf;&lf;А теперь следуй номер за номером и читай соответствующее описание справа, чтобы узнать как изменять параметры, которые управляют анимацией в Renderer.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Welcome to your first steps in vvvv. Before you learn to create your own patches, in this tutorial you learn how interact with existing patches.&lf;&lf;As you can see below, a patch consists of nodes (the gray boxes with text in them) and links (the black lines between them). Hover a node with the mouse to see a tooltip showing its full name. Hover the input and output pins (the dark little dots) of a node to see their names and current values.&lf;&lf;Follow the numbers and read the corresponding explanation on the right side to learn how to change some of the parameters that drive the animation in the Renderer below. To scroll down the patch, you may simply left-click on an empty place in the patch and then use the wheel button.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -535,7 +535,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8940" top="12420" width="4815" height="285">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Подробнее об использовании IOBox:|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|For more details on using IOBoxes, see:|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -611,5 +611,23 @@
    </BOUNDS>
    <BOUNDS type="Box" width="3090" height="1395" left="375" top="120">
    </BOUNDS>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="94" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="390" top="4215" width="9705" height="480">
+   </BOUNDS>
+   <BOUNDS type="Box" left="390" top="4215" width="3465" height="2400">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Scrolling in the Patch:&lf;&lf;Use the mousewheel (and press ALT for horizontal scrolling) or press the right mousebutton in an empty area and drag the mouse in any direction to reveal parts of the patch that exceed its window boundaries.|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Tag" slicecount="1" values="7">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="8">
+   </PIN>
    </NODE>
    </PATCH>

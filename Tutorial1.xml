@@ -134,5 +134,27 @@ Für weitere Details zur IOBox, siehe:
 Per altri dettagli su IOBox:
 </Italiano>
 </Entry>
+<Entry id="7" prefix="">
+  <English>
+Scrolling in the Patch:
+
+Use the mousewheel (and press ALT for horizontal scrolling) or press the right mousebutton in an empty area and drag the mouse in any direction to reveal parts of the patch that exceed its window boundaries.
+</English>
+  <Deutsch>
+Im Patch scrollen:
+
+Benutze das Mausrad (und drücke ALT um horizontal zu scrollen) oder drücke die rechte Maustaste an einer freien Stelle im Patch und ziehe die Maus um den Inhalt des Patches zu verschieben und Bereiche freizulegen, die ausserhalb der Fenstergrenzen liegen.
+  </Deutsch>
+  <Russian>
+Если ты хочешь сравнить то, что получилось у тебя, с тем, что мы хотели получить, можешь проскороллить patch направо:
+Нажми и удерживай правую кнопку мышки в пустом месте в patch, а затем поведи мышкой влево, чтобы пододвинуть patch в эту сторону:
+----------&gt;
+  </Russian>
+  <Italiano>
+Se vuoi confrontare il tuo risultato con quello che avremmo voluto farti ottenere, spostati più a destra nella patch: clicca e tieni premuto il tasto destro del mouse in un punto vuoto della patch e trascina verso sinistra.
+----------&gt;
+  </Italiano>
+</Entry>
+
 
 </Entries>
