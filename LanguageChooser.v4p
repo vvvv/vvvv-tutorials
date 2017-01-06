@@ -328,28 +328,6 @@
    </NODE>
    <LINK srcnodeid="53" srcpinname="Patch Path" dstnodeid="54" dstpinname="Filename">
    </LINK>
-   <NODE systemname="MakePath (String)" filename="%VVVV%\addonpack\lib\nodes\plugins\MakePath.dll" nodename="MakePath (String)" componentmode="Hidden" id="55">
-   <BOUNDS type="Node" left="825" top="2895" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Input 1" visible="1">
-   </PIN>
-   <PIN pinname="Input Count" slicecount="1" values="2">
-   </PIN>
-   <PIN pinname="Prepend Patch Path" slicecount="1" values="0">
-   </PIN>
-   <PIN pinname="Input 2" visible="1">
-   </PIN>
-   <PIN pinname="Output" visible="1">
-   </PIN>
-   <BOUNDS type="Box" left="825" top="2895">
-   </BOUNDS>
-   <PIN pinname="Input 3" visible="1" slicecount="1" values=".xml">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="54" srcpinname="Path" dstnodeid="55" dstpinname="Input 1">
-   </LINK>
-   <LINK srcnodeid="55" srcpinname="Output" dstnodeid="14" dstpinname="Filename">
-   </LINK>
    <NODE systemname="Add (String)" nodename="Add (String)" componentmode="Hidden" id="56">
    <BOUNDS type="Node" left="1590" top="2505" width="100" height="100">
    </BOUNDS>
@@ -362,36 +340,18 @@
    </NODE>
    <LINK srcnodeid="54" srcpinname="Shortname" dstnodeid="56" dstpinname="Input 1">
    </LINK>
-   <LINK srcnodeid="56" srcpinname="Output" dstnodeid="55" dstpinname="Input 2">
-   </LINK>
    <LINK srcnodeid="52" srcpinname="Output String" dstnodeid="56" dstpinname="Input 2">
    </LINK>
    <NODE systemname="Writer (String)" filename="%VVVV%\lib\nodes\modules\String\Writer (String).v4p" nodename="Writer (String)" componentmode="Hidden" id="57">
    <BOUNDS type="Node" left="3135" top="9840" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Filename" visible="1">
+   <PIN pinname="Filename" visible="1" slicecount="1" values="..\..\..\Desktop\vvvvs\vvvv_50beta35_x86\lib\nodes\modules\String\file.txt">
    </PIN>
    <PIN pinname="Content" visible="1">
    </PIN>
    <PIN pinname="Write" visible="1">
    </PIN>
    </NODE>
-   <NODE systemname="MakePath (String)" filename="%VVVV%\addonpack\lib\nodes\plugins\MakePath.dll" nodename="MakePath (String)" componentmode="Hidden" id="58">
-   <BOUNDS type="Node" left="3915" top="2700" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Input Count" slicecount="1" values="2">
-   </PIN>
-   <PIN pinname="Input 1" visible="1">
-   </PIN>
-   <PIN pinname="Output" visible="1">
-   </PIN>
-   <PIN pinname="Input 2" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="54" srcpinname="Path" dstnodeid="58" dstpinname="Input 1">
-   </LINK>
-   <LINK srcnodeid="58" srcpinname="Output" dstnodeid="57" dstpinname="Filename">
-   </LINK>
    <LINK srcnodeid="3" srcpinname="Output" dstnodeid="57" dstpinname="Content">
    </LINK>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="59" systemname="IOBox (String)">
@@ -407,15 +367,15 @@
    </PIN>
    <PIN pinname="Maximum Characters" slicecount="1" values="-1">
    </PIN>
+   <PIN pinname="Output String" visible="1">
+   </PIN>
    </NODE>
-   <LINK srcnodeid="59" srcpinname="Output String" dstnodeid="58" dstpinname="Input 2">
-   </LINK>
    <LINK srcnodeid="2" srcpinname="Output" dstnodeid="57" dstpinname="Write">
    </LINK>
    <NODE systemname="Reader (String)" filename="%VVVV%\lib\nodes\modules\String\Reader (String).v4p" nodename="Reader (String)" componentmode="Hidden" id="60">
    <BOUNDS type="Node" left="1965" top="3990" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Filename" visible="1">
+   <PIN pinname="Filename" visible="1" slicecount="1" values="..\..\..\Desktop\vvvvs\vvvv_50beta35_x86\lib\nodes\modules\String\file.txt">
    </PIN>
    <PIN pinname="Read" visible="1">
    </PIN>
@@ -426,8 +386,6 @@
    <PIN pinname="Success" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="58" srcpinname="Output" dstnodeid="60" dstpinname="Filename">
-   </LINK>
    <LINK srcnodeid="51" srcpinname="Bang" dstnodeid="60" dstpinname="Read">
    </LINK>
    <NODE systemname="Switch (String Input)" nodename="Switch (String Input)" componentmode="Hidden" id="61">
@@ -642,4 +600,36 @@
    <PIN pinname="String Type" slicecount="1" values="MultiLine">
    </PIN>
    </NODE>
+   <NODE systemname="AbsolutePath (File)" nodename="AbsolutePath (File)" componentmode="Hidden" id="73">
+   <BOUNDS type="Node" left="5190" top="2925" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Relative Path" visible="1">
+   </PIN>
+   <PIN pinname="Base Path" visible="1">
+   </PIN>
+   <PIN pinname="Absolute Path" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="AbsolutePath (File)" nodename="AbsolutePath (File)" componentmode="Hidden" id="74">
+   <BOUNDS type="Node" left="660" top="3060" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Base Path" visible="1">
+   </PIN>
+   <PIN pinname="Relative Path" visible="1">
+   </PIN>
+   <PIN pinname="Absolute Path" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="54" srcpinname="Path" dstnodeid="74" dstpinname="Base Path">
+   </LINK>
+   <LINK srcnodeid="56" srcpinname="Output" dstnodeid="74" dstpinname="Relative Path">
+   </LINK>
+   <LINK srcnodeid="74" srcpinname="Absolute Path" dstnodeid="14" dstpinname="Filename">
+   </LINK>
+   <LINK srcnodeid="59" srcpinname="Output String" dstnodeid="73" dstpinname="Relative Path">
+   </LINK>
+   <LINK srcnodeid="54" srcpinname="Path" dstnodeid="73" dstpinname="Base Path">
+   </LINK>
+   <LINK srcnodeid="73" srcpinname="Absolute Path" dstnodeid="60" dstpinname="Filename">
+   </LINK>
    </PATCH>
