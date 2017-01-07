@@ -6,7 +6,7 @@ Welcome to your first steps in vvvv. Before you learn to create your own patches
 
 As you can see below, a patch consists of nodes (the gray boxes with text in them) and links (the black lines between them). Hover a node with the mouse to see a tooltip showing its full name. Hover the input and output pins (the dark little dots) of a node to see their names and current values.
 
-Follow the numbers and read the corresponding explanation on the right side to learn how to change some of the parameters that drive the animation in the Renderer below. To scroll down the patch, you may simply left-click on an empty place in the patch and then use the wheel button.
+Follow the numbers and read the corresponding explanation on the right side to learn how to change some of the parameters that drive the animation in the Renderer below.
 </English>
 <Deutsch>
 Halo halo zu deinen ersten Schritten in vvvv. Bevor du lernst, deine eigenen patches zu bauen, zeigt dir dieses Tutorial wie man bei bestehnden patches Werte verändern kann.
@@ -27,7 +27,7 @@ Benvenute e benvenuti al primo tutorial di vvvv. In questo tutorial imparerete a
 
 Come potete vedere, una patch consiste di nodi, nodes, (i rettangoli grigi con del testo sopra) e collegamenti, links, (le linee nere che li congiungono). Sposta il puntatore del mouse su un nodo per vedere un suggerimento contenente il nome completo del nodo; sposta il cursore sui pin di input ed output (i quadratini scuri sul bordo inferiore e superiore di un nodo), per vedere i loro nomi ed i loro valori attuali.
 
-Segui la numerazione a destra e leggi la corrisponendente spiegazione per imparare a cambiare alcuni parametri che guidano l'animazione nel Renderer più in basso. Per scorrere in basso nella patch, clicca col sinistro in un punto vuoto e poi usa la rotellina del mouse.
+Segui la numerazione a destra e leggi la corrisponendente spiegazione per imparare a cambiare alcuni parametri che guidano l'animazione nel Renderer più in basso.
 </Italiano>
 </Entry>
 <Entry id="1" prefix="">
@@ -151,8 +151,8 @@ Benutze das Mausrad (und drücke ALT um horizontal zu scrollen) oder drücke die
 Используй колесо прокрутки мышки (и удерживай клавишу ALT для скролла по горизонтали) или нажми и удерживай правую кнопку мышки в любом пустом месте patch и поведи мышкой в любом направлении, чтобы перейти к частям patch лежащими за границами окна.  
   </Russian>
   <Italiano>
-Se vuoi confrontare il tuo risultato con quello che avremmo voluto farti ottenere, spostati più a destra nella patch: clicca e tieni premuto il tasto destro del mouse in un punto vuoto della patch e trascina verso sinistra.
-----------&gt;
+Per spostarti all'interno di una patch:
+usa la rotellina (tieni premuto ALT per scorrere orizzontalmente), oppure premi e tieni premuto il testo destro del mouse in un punto vuoto della patch e trascina il cursore.
   </Italiano>
 </Entry>
 
