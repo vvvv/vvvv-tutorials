@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.dtd" >
-   <PATCH nodename="C:\Users\seb\Google Drive\vvvv\traductions\vvvv-tutorials\LanguageChooser.v4p" systemname="LanguageChooser" filename="C:\Users\joreg\Documents\repos\vvvv\public\vvvv45\girlpower\Tutorials\LanguageChooser.v4p" scrollx="7147" scrolly="8792">
+   <PATCH nodename="C:\Users\seb\Google Drive\vvvv\traductions\vvvv-tutorials\LanguageChooser.v4p" systemname="LanguageChooser" filename="C:\Users\joreg\Documents\repos\vvvv\public\vvvv45\girlpower\Tutorials\LanguageChooser.v4p" scrollx="7147" scrolly="8788">
    <BOUNDS type="Window" left="615" top="930" width="7845" height="14325">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
