@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.dtd" >
-   <PATCH nodename="C:\Users\seb\Google Drive\vvvv\traductions\vvvv-tutorials\Tutorial2.v4p" scrollx="0" scrolly="717" systemname="Tutorial1-2" filename="C:\Users\joreg\Documents\repos\vvvv-tutorials\Tutorial1-2.v4p">
+   <PATCH nodename="C:\Users\seb\Google Drive\vvvv\traductions\vvvv-tutorials\Tutorial2.v4p" scrollx="0" scrolly="-360" systemname="Tutorial1-2" filename="C:\Users\joreg\Documents\repos\vvvv-tutorials\Tutorial1-2.v4p">
    <BOUNDS type="Window" left="2387" top="455" width="13258" height="11697">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
@@ -9,7 +9,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="7965" top="3300" width="4470" height="3285">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Sur la node &lt;, survolez la deuxième entrée nommée &apos;Input 2&apos;. Vous voyez que cette pin a déjà une valeur assignée de 0.2. Afin de rendre cette valeur contrôlable via une IOBox, faites un clic gauche dessus pour commencer à créer un lien, puis faites un clic-milieu (ou ESPACE + Clic droit) pour créer une IOBox n&apos;importe où dans le patch. Vous verrez apparaître à côté de l&apos;IOBox une liste d&apos;options (Bang, Toggle, Press...) que vous pouvez ignorer pour l&apos;instant. Bougez la souris pour la faire disparaitre.&lf;&lf;Si vous changez cette valeur, vous remarquerez que plus ou moins de points vont être connectés.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|On the &lt; node hover the second input called &apos;Input 2&apos; to see there is already a value of 0.2 in that pin. In order to control that value via an IOBox left click the input to start a link from it, then middle click (or press SPACE and right-click) to create an IOBox under the mouse pointer, wherever you may have placed it in the patch. Besides the IOBox there&apos;ll appear a list of options (Bang, Toggle, Press,...) which you can simply ignore for now. Move the mouse away a bit to get rid of it.&lf;&lf;Note that as you change this value more or less points will be connected.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -43,7 +43,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="7965" top="6675" width="4530" height="3660">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Pour changer la couleur des liens entre les points, survolez les entrées de la node Line et trouvez celle nommée &apos;Color&apos;. Une fois encore, faites un clic gauche pour commencer à tracer un lien et faites un clic-milieu n&apos;importe où dans le patch pour pour créer une IOBox Color.&lf;&lf;Maintenant, essayons de changer la largeur des lignes. Trouvez l&apos;entrée &apos;Width&apos; de la node Line et créez une IOBox comme vu précédemment, mais cette fois-ci, faites attention à la liste d&apos;options qui apparaît et choisissez &apos;Integer&apos; pour créer une IOBox qui n&apos;affichera que des nombres entiers.&lf;&lf;Changez la valeur de cette IOBox pour avoir des lignes plus épaisses.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|To change the color of the lines between the dots hover the inputs of the Line node with the mouse and find the one labeled &apos;Color&apos;. Again left click that input to start a link and then middle-click anywhere in the patch to create a color IOBox.&lf;&lf;Now let&apos;s change the width of the line. Find the &apos;Width&apos; input on the Line node and create an IOBox as before but now note the popup with the options you get and choose &apos;Integer&apos; to get an IOBox that lets you operate in whole values.&lf;&lf;Change the value in this IOBox to get fatter lines.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -77,7 +77,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="7965" top="10470" width="4365" height="1920">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Enfin, changeons la forme des points dessinés. Après avoir trouvé la pin &apos;Type&apos; sur la node Point, créez une IOBox Enumeration comme vous l&apos;avez appris au dessus : faites un clic gauche sur l&apos;entrée et un clic milieu n&apos;importe où dans le patch. Faites ensuite un clic droit sur l&apos;IOBox pour choisir entre &apos;Rectangle&apos;, &apos;Triangle&apos; et &apos;Cercle&apos;.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Finally let us change the shape of the points by finding the &apos;Type&apos; input on the Point node and creating an IOBox as we just learned: Click the input and then middle-click anywhere in the patch to get an enumeration IOBox. Then rightclick the IOBox to choose between &apos;Rectangle, Triangle, Circle&apos;.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -127,7 +127,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="4275" top="660" width="5805" height="2475">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Ajouter des IOBoxes à un patch existant.&lf;&lf;Ne vous inquiétez pas si vous ne comprenez pas le fonctionnement de ce petit programme. Dans ce tutoriel, nous allons simplement apprendre comment ajouter des IOBoxes à un patch existant afin d&apos;influencer certains paramètres.&lf;&lf;Dans la fenêtre de rendu, vous voyez un nuage de points bougeant de façon aléatoire. Quand la distance séparant deux points est en dessous d&apos;un certain seuil, ceux-ci sont reliés par une ligne. Voyons ensemble comment manipuler cette animation...|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Adding IOBoxes to an existing patch.&lf;&lf;Don&apos;t worry if you don&apos;t understand the whole patch yet. In this tutorial we simply want you to learn how to add IOBoxes to an existing patch in order to control some of its parameters.&lf;&lf;In the Renderer you see a randomly moving pointcloud where dots whose distance is below a certain threshold are connected by a line. Let&apos;s see how we can manipulate the animation a bit..|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -487,7 +487,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="7965" top="12915" width="4815" height="285">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Pour plus d&apos;infos sur les IOBoxes, lisez :|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|For more details on using IOBoxes, see:|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
