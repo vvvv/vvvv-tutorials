@@ -21,6 +21,11 @@ Benissimo! Siamo pronti per creare i nodi!
 
 Questa patch disegna una griglia di Quad. Aggiungendo due nodi renderemo questo esempio interattivo: la dimensione di ciascun quadrato cambierà a seconda della distanza dal puntatore del mouse.
 </Italiano>
+	<Français>
+BOOM ! Vous voilà enfin prêts à créer des nodes !
+
+Le patch ci-dessous dessine une grille de quads. En ajoutant simplement deux nodes, nous allons rendre les choses un peu plus interactives : selon la distance qui séparera chaque quad du pointeur de la souris, sa taille changera...
+	</Français>
 </Entry>
 <Entry id="1" prefix="">
   <English>
@@ -43,6 +48,11 @@ Fai un doppio clic col sinistro in un punto vuoto e vicino al nodo GridSpread pe
 
 A questo punto, un po' sotto il nodo Mouse, fai doppio clic col sinistro e crea un nodo 'Distance (2d)'.
 </Italiano>
+<Français>
+Faites un double-clic gauche dans un endroit vide à côté de la node GridSpread pour afficher le nodebrowser. Tapez 'mouse', et dans la liste de node désormais filtrée, choisissez la deuxième option : 'Mouse (Devices Window)' avec un clic gauche. Vous pouvez maintenant drag and drop la node où vous voulez dans le patch.
+
+Ensuite, en dessous de notre nouvelle node Mouse, double-cliquez à nouveau et créez une node 'Distance (2d)'.
+</Français>
 </Entry>
 <Entry id="2" prefix="">
   <English>
@@ -81,6 +91,15 @@ Quando ora connetti il pin di output Distance del nodo 'Distance' al pin XYZ del
 
 Noterai inoltre come il disegno nel Renderer sia cambiato. Muovi il mouse all'interno del Renderer e nota come i quadrati vicini al mouse siano più piccoli, mentre gli altri riempiano lo schermo.
   </Italiano>
+  <Français>
+Connectez maintenant la sortie du GridSpread à la première entrée de la node Distance et la pin 'PositionXY' de la node Mouse à la seconde entrée de Distance.
+
+Vous obtiendrez ainsi la distance entre chaque point de la grille et le curseur.
+
+Si vous connectez la sortie Distance à la pin 'XYZ' de l'UniformScale, vous remarquerez que la connexion entre cette pin et l'IOBox est automatiquement supprimée. En effet, dans vvvv, un input ne peut recevoir qu'une connexion à la fois.
+
+Plus bas encore, vous remarquerez que le rendu a changé. Bougez votre souris au-dessus de la fenêtre de rendu : les quads à faible distance du curseur rapetissent alors que les autres deviennent plus gros !
+  </Français>
 </Entry>
 <Entry id="3" prefix="">
   <English>
@@ -111,6 +130,13 @@ Quindi: doppio clic col sinistro, digita map e scegli Map (Value). Collega il pi
 
 Ora sul nodo Map trova il pin 'Destination Maximum', facci clic col sinistro, sposta un po' il cursore e clicca col tasto centrale (oppure Spazio + Clic Destro), per creare un IOBox. Cambia il valore intorno a 0.1, e poi sposta di nuovo il cursore all'interno del Renderer.
   </Italiano>
+  <Français>
+Enfin, créons une node 'Map (Value)' entre les nodes Distance et UniformScale pour mieux contrôler l'influence de la distance sur la taille.
+
+Double-cliquez dans le patch, tapez 'map' et choisissez la première option : 'Map (Value)'. Connectez la sortie de la node Distance à l'entrée 'Input' de Map, et la sortie 'Output' de Map à la pin 'XYZ' de l'UniformScale (une fois encore, en remplaçant le lien déjà existant).
+
+Cherchez la pin d'entrée 'Destination Maximum' sur Map, faites un clic gauche puis un clic-milieu dans le patch pour créer une IOBox reliée à ce paramètre. Assignez-lui une valeur de 0.1 et bougez votre curseur sur la fenêtre de rendu pour voir les résultats.
+  </Français>
 </Entry>
 <Entry id="4" prefix="">
   <English>
@@ -132,6 +158,10 @@ Drück dazu die rechte Maustaste an einer freien Stelle im Patch und ziehe nach 
 Se vuoi confrontare il tuo risultato con quello che avremmo voluto farti ottenere, spostati più a destra nella patch: clicca e tieni premuto il tasto destro del mouse in un punto vuoto della patch e trascina verso sinistra.
 ----------&gt;
   </Italiano>
+  <Français>
+Si vous voulez comparer votre résultat avec ce que nous avions en tête, vous pouvez scroller vers la droite : maintenez le bouton droit dans un endroit vide du patch et faites glisser vers la gauche.
+----------&gt;
+  </Français>
 </Entry>
 <Entry id="5" prefix="">
   <English>
@@ -146,6 +176,9 @@ Für mehr Details zu Nodes, siehe:
   <Italiano>
 Per altri dettagli sui nodi:
 </Italiano>
+<Français>
+Pour plus de détails sur les nodes :
+</Français>
 </Entry>
 
 <Entry id="6" prefix="">
@@ -161,6 +194,9 @@ Weitere Tutorials gibt's online:
   <Italiano>
 Altri tutorial sono disponibili online:
 </Italiano>
+<Français>
+D'autres tutos sont disponibles en ligne :
+</Français>
 </Entry>
 
 </Entries>
