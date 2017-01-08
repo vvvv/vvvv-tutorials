@@ -5,6 +5,7 @@
   <Deutsch>Links ziehen.</Deutsch>
   <Russian>Как соединять nodes.</Russian>
   <Italiano>Creare link (Ovvero: come far comunicare tra loro i nodi)</Italiano>
+  <Français>Créer des links.</Français>
 </Entry>
 
 <Entry id="0" prefix="">
@@ -24,6 +25,10 @@ Du siehst den SpiralSpread Node, der einen Spread (eine Liste) an 200 Punkten ge
   <Italiano>
 Mancano dei link in questa patch! Trovate il nodo SpiralSpread; questo genera uno spread (una lista) di 200 punti che poi vengono inviati, attravarso un nodo Multiply, al nodo Point, per essere quindi disegnati. Proviamo a ruotare la spirale!
   </Italiano>
+  <Français>
+Tiens, on dirait qu'il manque des links dans ce patch.
+Vous pouvez voir la node SpiralSpread, qui génère un spread (une liste) de 200 points qui sont ensuite envoyés à la node Point (via la node Multiply) afin d'être rendus à l'écran. Faisons tourner cette spirale !
+  </Français>
 </Entry>
 
 <Entry id="1" prefix="">
@@ -55,6 +60,13 @@ Nota come molti pin del nodo Transform siano ora più grandi, suggerendoti così
 
 Sposta il mouse sopra gli input pin del nodo Transform per trovare quello chiamato 'Rotate', e clicca di nuovo col sinistro per completare il link.
   </Italiano>
+  <Français>
+Créez un lien avec un clic gauche à partir de la pin 'Output' de la node LFO. Ne faites pas un clic-glissé, cliquez simplement sur la pin et lâchez le bouton ! Le link est créé et va suivre votre souris. Vous pouvez placer autant de points d'encrage que vous le voulez.
+
+Vous remarquerez que les pins d'entrée de la node Transform deviennent plus gros : cela vous indique qu'ils peuvent accepter la connexion.
+
+Survolez les pins d'entrée de la node Transform avec votre curseur jusqu'à trouver celle nommée 'Rotate' et cliquez dessus pour terminer le link.
+  </Français>
 </Entry>
 
 <Entry id="2" prefix="">
@@ -86,6 +98,13 @@ Nota come il primo pin del nodo Multiply è più grande, indicando così che è 
 
 Completa il link con un clic del tasto sinistro su quel pin: la spirale adesso dovrebbe muoversi.
   </Italiano>
+  <Français>
+Maintenant, créez un lien partant de la sortie 'Output' de la node Transform.
+
+Vous pouvez voir que la première pin d'entrée de la node Multiply a grossi pour vous indiquer qu'elle peut accepter la connexion. 
+
+Terminez le lien en cliquant sur cette pin et vous devriez voir votre spirale tourner.
+  </Français>
 </Entry>
 
 <Entry id="3" prefix="">
@@ -109,6 +128,11 @@ Per rimuovere un link, selezionalo col tasto sinistro, e poi cliccaci col tasto 
 
 Inoltre, mentre generi un link, puoi cliccare col destro per cancellare l'operazione.
   </Italiano>
+  <Français>
+Pour supprimer un lien, sélectionnez-le en faisant un clic-gauche dessus. Ensuite, faites un clic droit ou appuyez sur SUPPR pour le supprimer.
+
+Aussi, pendant la création d'un lien, vous pouvez faire un clic droit pour l'annuler.
+  </Français>
 </Entry>
 
 <Entry id="4" prefix="">
@@ -124,5 +148,8 @@ Für weitere Details zum Ziehen von Links, siehe:
   <Italiano>
 Per altri dettagli su IOBox:
 </Italiano>
+  <Français>
+Pour plus de détails sur les liens, lisez donc :
+  </Français>
 </Entry>
 </Entries>
