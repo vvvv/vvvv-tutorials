@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.dtd" >
-   <PATCH nodename="C:\Users\joreg\Documents\repos\vvvv-tutorials\Tutorial4.v4p" scrollx="0" scrolly="-564" systemname="Tutorial4" filename="C:\Users\joreg\Documents\repos\vvvv-tutorials\Tutorial4.v4p" locked="0">
+   <PATCH nodename="C:\Users\seb\Google Drive\vvvv\traductions\vvvv-tutorials\Tutorial4.v4p" scrollx="0" scrolly="-564" systemname="Tutorial4" filename="C:\Users\joreg\Documents\repos\vvvv-tutorials\Tutorial4.v4p" locked="0">
    <BOUNDS type="Window" left="615" top="2010" width="13890" height="11700">
    </BOUNDS>
    <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="InABox" id="6">
@@ -11,7 +11,7 @@
    </BOUNDS>
    <PIN pinname="Layers" visible="1" slicecount="1" values="||">
    </PIN>
-   <PIN pinname="Windowed Antialiasing Quality Level" slicecount="1" values="3">
+   <PIN pinname="Windowed Antialiasing Quality Level" slicecount="1" values="NONE">
    </PIN>
    <PIN pinname="Background Color" visible="1" slicecount="1" values="|0.20071,0.23863,0.27929,1.00000|">
    </PIN>
@@ -49,7 +49,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8415" top="3810" width="4380" height="4860">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Adessa collega il pin &apos;Output&apos; di GridSpread al primo input pin di &apos;Distance&apos; ed il pin &apos;PositionXY&apos; del nodo Mouse al secondo pin di input del nodo &apos;Distance&apos;.&lf;&lf;Così ottieni la distanza tra ciascuno dei punti della griglia (grid) e la posizione del mouse.&lf;&lf;Quando ora connetti il pin di output Distance del nodo &apos;Distance&apos; al pin XYZ del nodo &apos;UniformScale&apos;, vedrai come il link esistente tra il pin e lo IOBox viene automaticamente rimosso: questo perché un pin di input accetta una sola connessione!&lf;&lf;Noterai inoltre come il disegno nel Renderer sia cambiato. Muovi il mouse all&apos;interno del Renderer e nota come i quadrati vicini al mouse siano più piccoli, mentre gli altri riempiano lo schermo.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Now connect the output of the GridSpread node to the first input of the Distance node and the &apos;PositionXY&apos; output of the Mouse node to the second second input of the Distance node.&lf;&lf;This will give you the distance between each of the grids points and the mouse position.&lf;&lf;When you now connect the &apos;Distance&apos; output to the &apos;XYZ&apos; input of the UniformScale node you&apos;ll notice that the existing connection on that pin to the IOBox is automatically removed because any input in vvvv can always only accept one connection!&lf;&lf;Further you notice that the rendering has changed. Move the mouse over the Renderer to see how now the quads with a small distance to the cursor are drawn smaller and all the others are drawn bigger.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -83,7 +83,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="4275" top="765" width="3495" height="2445">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Benissimo! Siamo pronti per creare i nodi!&lf;&lf;Questa patch disegna una griglia di Quad. Aggiungendo due nodi renderemo questo esempio interattivo: la dimensione di ciascun quadrato cambierà a seconda della distanza dal puntatore del mouse.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Now we&apos;re getting to it: Here is how you create nodes!&lf;&lf;The patch below already draws a grid of Quads. By adding two nodes we&apos;ll be making the example a bit interactive: depending on the distance of each quad to the mouse cursor its size will be adapted...|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -151,7 +151,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8415" top="8670" width="4515" height="4170">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|A questo punto crea un nodo &apos;Map (Value)&apos; e mettilo tra i nodi Distance ed UniformScale, per poter controllare meglio come la distanza influenzi la dimensione dei quadrati.&lf;&lf;Quindi: doppio clic col sinistro, digita map e scegli Map (Value). Collega il pin di output di Distance con il pin &apos;Input&apos; del nodo Map, ed il pin &apos;Output&apos; di Map con il pin &apos;XYZ&apos; di UniformScale (rimpiazzando il vecchio link verso lo IOBox).&lf;&lf;Ora sul nodo Map trova il pin &apos;Destination Maximum&apos;, facci clic col sinistro, sposta un po&apos; il cursore e clicca col tasto centrale (oppure Spazio + Clic Destro), per creare un IOBox. Cambia il valore intorno a 0.1, e poi sposta di nuovo il cursore all&apos;interno del Renderer.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Finally let us place a &apos;Map (Value)&apos; node between the Distance and the UniformScale node to better control how the distance influences the size.&lf;&lf;Doubleclick in the patch, type &apos;map&apos; and then chose the first option: Map (Value). Connect the output of the Distance node to the Map&apos;s &apos;Input&apos; pin and the Map&apos;s &apos;Output&apos; pin to the UniformScale&apos;s XYZ input pin (again replacing the previously existing link).&lf;&lf;Now identify the &apos;Destination Maximum&apos; input on the Map node, left-click it and press the middle mousebutton in the patch to create an IOBox for this parameter. Change the value to around 0.1 and then move your mouse over the renderer to see the result.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -169,7 +169,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8415" top="795" width="4290" height="2955">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Fai un doppio clic col sinistro in un punto vuoto e vicino al nodo GridSpread per aprire il NodeBrowser. Digita &apos;Mouse&apos;, e dalla lista filtrata degli elementi, scegli col tasto sinistro &apos;Mouse (Devices Window)&apos;. Il nodo è selezionato e puoi spostarlo dove preferisci tramite le frecce della tastiera o cliccandoci sopra col tasto sinistro e transcinandolo (se hai sbagliato nodo, puoi cancellarlo usando Canc\DEL).&lf;&lf;A questo punto, un po&apos; sotto il nodo Mouse, fai doppio clic col sinistro e crea un nodo &apos;Distance (2d)&apos;.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Double leftclick in the empty space next to the GridSpread node to bring up the nodebrwoser. Type &apos;Mouse&apos; and from the now filtered list of available nodes choose the second option named &apos;Mouse (Devices Window)&apos; by left-clicking on it. Note how you can now simply drag-drop the node to find a good place for it in the patch.&lf;&lf;Then, a bit below the new Mouse node doubleclick again to create a node named &apos;Distance (2d)&apos;.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -289,7 +289,7 @@
    </BOUNDS>
    <PIN pinname="Layers" visible="1" slicecount="1" values="||">
    </PIN>
-   <PIN pinname="Windowed Antialiasing Quality Level" slicecount="1" values="3">
+   <PIN pinname="Windowed Antialiasing Quality Level" slicecount="1" values="NONE">
    </PIN>
    <PIN pinname="Background Color" visible="1" slicecount="1" values="|0.20071,0.23863,0.27929,1.00000|">
    </PIN>
@@ -465,7 +465,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="1815" top="12090" width="5085" height="1725">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Se vuoi confrontare il tuo risultato con quello che avremmo voluto farti ottenere, spostati più a destra nella patch: clicca e tieni premuto il tasto destro del mouse in un punto vuoto della patch e trascina verso sinistra.&lf;----------&gt;|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|If you want to compare your result to what we we&apos;re hoping you would get, you can scroll the patch to the right:&lf;Press the right mousebutton in an empty area of the patch and drag to the left to move the patch in this direction:&lf;----------&gt;|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -499,7 +499,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8430" top="13185" width="4815" height="285">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Per altri dettagli sui nodi:|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|For more details on nodes, see:|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -531,7 +531,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="540" top="2040" width="2340" height="555">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Altri tutorial sono disponibili online:|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|More Tutorials are available online:|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -549,7 +549,7 @@
    <NODE systemname="LanguageChooser" filename="LanguageChooser.v4p" nodename="LanguageChooser.v4p" componentmode="InABox" id="187">
    <BOUNDS type="Node" left="2925" top="3870" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" width="3090" height="1395" left="225" top="285">
+   <BOUNDS type="Box" width="3080" height="1484" left="225" top="285">
    </BOUNDS>
    </NODE>
    </PATCH>

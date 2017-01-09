@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.dtd" >
-   <PATCH nodename="C:\Users\joreg\Documents\repos\vvvv-tutorials\Tutorial1.v4p" scrollx="0" scrolly="0" systemname="Tutorial1-1" filename="C:\Work\vvvv-tutorials\Tutorial1-1.v4p">
+   <PATCH nodename="C:\Users\seb\Google Drive\vvvv\traductions\vvvv-tutorials\Tutorial1.v4p" scrollx="0" scrolly="0" systemname="Tutorial1-1" filename="C:\Work\vvvv-tutorials\Tutorial1-1.v4p">
    <BOUNDS type="Window" left="2820" top="405" width="14490" height="12735">
    </BOUNDS>
    <NODE systemname="TypoSpread (Spreads)" nodename="TypoSpread (Spreads)" componentmode="Hidden" id="0">
@@ -33,7 +33,7 @@
    </BOUNDS>
    <PIN pinname="Layers" visible="1">
    </PIN>
-   <PIN pinname="Windowed Antialiasing Quality Level" slicecount="1" values="3">
+   <PIN pinname="Windowed Antialiasing Quality Level" slicecount="1" values="NONE">
    </PIN>
    <PIN pinname="Background Color" visible="1" slicecount="1" values="|0.20071,0.23863,0.27929,1.00000|">
    </PIN>
@@ -427,7 +427,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="4725" top="660" width="6945" height="3150">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Welcome to your first steps in vvvv. Before you learn to create your own patches, in this tutorial you learn how interact with existing patches.&lf;&lf;As you can see below, a patch consists of nodes (the gray boxes with text in them) and links (the black lines between them). Hover a node with the mouse to see a tooltip showing its full name. Hover the input and output pins (the dark little dots) of a node to see their names and current values.&lf;&lf;Follow the numbers and read the corresponding explanation on the right side to learn how to change some of the parameters that drive the animation in the Renderer below. To scroll down the patch, you may simply left-click on an empty place in the patch and then use the wheel button.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Welcome to your first steps in vvvv. Before you learn to create your own patches, in this tutorial you learn how interact with existing patches.&lf;&lf;As you can see below, a patch consists of nodes (the gray boxes with text in them) and links (the black lines between them). Hover a node with the mouse to see a tooltip showing its full name. Hover the input and output pins (the dark little dots) of a node to see their names and current values.&lf;&lf;Follow the numbers and read the corresponding explanation on the right side to learn how to change some of the parameters that drive the animation in the Renderer below.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -609,7 +609,7 @@
    <NODE systemname="LanguageChooser" filename="LanguageChooser.v4p" nodename="LanguageChooser.v4p" componentmode="InABox" id="93">
    <BOUNDS type="Node" left="3075" top="4800" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" width="3090" height="1395" left="375" top="120">
+   <BOUNDS type="Box" width="3087" height="1456" left="375" top="120">
    </BOUNDS>
    </NODE>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="94" systemname="IOBox (String)">

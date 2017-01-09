@@ -30,6 +30,13 @@ Per il momento non è necessario che ti concentri sulla logica della patch. In q
 
 Nel Renderer puoi vedere una nuvola i cui punti si muovono in maniera casuale; quando la distanza tra più punti è inferiore ad una certa soglia questi vengono collegati da una linea. Vediamo come poter manipolare l'animazione...
 </Italiano>
+<Français>
+Ajouter des IOBoxes à un patch existant.
+
+Ne vous inquiétez pas si vous ne comprenez pas le fonctionnement de ce petit programme. Dans ce tutoriel, nous allons simplement apprendre comment ajouter des IOBoxes à un patch existant afin d'influencer certains paramètres.
+
+Dans la fenêtre de rendu, vous voyez un nuage de points bougeant de façon aléatoire. Quand la distance séparant deux points est en dessous d'un certain seuil, ceux-ci sont reliés par une ligne. Voyons ensemble comment manipuler cette animation...
+</Français>
 </Entry>
 <Entry id="1" prefix="">
 <English>
@@ -48,6 +55,11 @@ Wenn du beim beim &lt; Node mit der Maus über den zweiten Input namens 'Input 2
 <Italiano>
 Porta il mouse sopra il secondo pin di input, chiamato 'Input 2', del nodo &lt;, e vedrai che contiene il valore 0.2. Per poter gestire questo valore con un IOBox, clicca col sinistro sul pin 'Input 2' per generare un link, quindi premi il tasto centrale del mouse (oppure Spazio + Clic destro) per generare un IOBox sotto il cursore del mouse, ovunque tu lo abbia spostato (evita perciò di metterlo sopra un altro nodo, giusto per rispettare i canoni di efficienza imposti dalla società moderna). Accanto ad IOBox ci sarà una lista di Opzioni (Bang, Toggle, Press...), che per il momento puoi ignorare: sposta il mouse per chiudere la lista.
 </Italiano>
+<Français>
+Sur la node &lt;, survolez la deuxième entrée nommée 'Input 2'. Vous voyez que cette pin a déjà une valeur assignée de 0.2. Afin de rendre cette valeur contrôlable via une IOBox, faites un clic gauche dessus pour commencer à créer un lien, puis faites un clic-milieu (ou ESPACE + Clic droit) pour créer une IOBox n'importe où dans le patch. Vous verrez apparaître à côté de l'IOBox une liste d'options (Bang, Toggle, Press...) que vous pouvez ignorer pour l'instant. Bougez la souris pour la faire disparaitre.
+
+Si vous changez cette valeur, vous remarquerez que plus ou moins de points vont être connectés.
+</Français>
 </Entry>
 <Entry id="2" prefix="">
 <English>
@@ -77,6 +89,13 @@ Per cambiare il colore delle linee, sposta il mouse sui pin di input del nodo Li
 Modifichiamo adesso lo spessore della linea. Trova il pin di input 'Width' sul nodo Line e genera un altro IOBox, ma attenzione: tra le opzioni a tua disposizione, stavolte scegli 'Integer', per creare un IOBox che lavora con i numeri interi.
 Cambia questo valore per disegnare linee più spesse.
 </Italiano>
+<Français>
+Pour changer la couleur des liens entre les points, survolez les entrées de la node Line et trouvez celle nommée 'Color'. Une fois encore, faites un clic gauche pour commencer à tracer un lien et faites un clic-milieu n'importe où dans le patch pour pour créer une IOBox Color.
+
+Maintenant, essayons de changer la largeur des lignes. Trouvez l'entrée 'Width' de la node Line et créez une IOBox comme vu précédemment, mais cette fois-ci, faites attention à la liste d'options qui apparaît et choisissez 'Integer' pour créer une IOBox qui n'affichera que des nombres entiers.
+
+Changez la valeur de cette IOBox pour avoir des lignes plus épaisses.
+</Français>
 </Entry>
 <Entry id="3" prefix="">
 <English>
@@ -91,6 +110,9 @@ Und jetzt wollen wir noch die Form der Punkte verändern. Dazu suchen wir den In
 <Italiano>
 Infine cambiamo la forma dei punti. Cercate il pin di input 'Type' sul nodo Point, creando un IOBox alla solita maniera (ignorandone le opzioni anche in questo caso). Cliccaci sopra col destro  e scegli tra 'Rectangle, Triangle, Circle'.
 </Italiano>
+<Français>
+Enfin, changeons la forme des points dessinés. Après avoir trouvé la pin 'Type' sur la node Point, créez une IOBox Enumeration comme vous l'avez appris au dessus : faites un clic gauche sur l'entrée et un clic milieu n'importe où dans le patch. Faites ensuite un clic droit sur l'IOBox pour choisir entre 'Rectangle', 'Triangle' et 'Cercle'.
+</Français>
 </Entry>
 <Entry id="4" prefix="">
 <English>
@@ -105,6 +127,9 @@ Für weitere Details zur IOBox, siehe:
 <Italiano>
 Per altri dettagli su IOBox:
 </Italiano>
+<Français>
+Pour plus d'infos sur les IOBoxes, lisez :
+</Français>
 </Entry>
 
 </Entries>

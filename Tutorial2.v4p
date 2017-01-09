@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.dtd" >
-   <PATCH nodename="C:\Users\joreg\Documents\repos\vvvv-tutorials\Tutorial2.v4p" scrollx="0" scrolly="-2166" systemname="Tutorial1-2" filename="C:\Users\joreg\Documents\repos\vvvv-tutorials\Tutorial1-2.v4p">
-   <BOUNDS type="Window" left="480" top="960" width="13260" height="11700">
+   <PATCH nodename="C:\Users\seb\Google Drive\vvvv\traductions\vvvv-tutorials\Tutorial2.v4p" scrollx="0" scrolly="-360" systemname="Tutorial1-2" filename="C:\Users\joreg\Documents\repos\vvvv-tutorials\Tutorial1-2.v4p">
+   <BOUNDS type="Window" left="2387" top="455" width="13258" height="11697">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -567,7 +567,7 @@
    <NODE systemname="LanguageChooser" filename="LanguageChooser.v4p" nodename="LanguageChooser.v4p" componentmode="InABox" id="136">
    <BOUNDS type="Node" left="2130" top="2595" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" width="3090" height="1395" left="210" top="285">
+   <BOUNDS type="Box" width="3073" height="1477" left="210" top="285">
    </BOUNDS>
    </NODE>
    </PATCH>
