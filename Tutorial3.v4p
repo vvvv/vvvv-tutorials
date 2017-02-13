@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.dtd" >
    <PATCH nodename="C:\Users\joreg\Documents\repos\vvvv-tutorials\Tutorial3.v4p" scrollx="30" scrolly="-432" systemname="Tutorial2-1" filename="C:\Work\vvvv-tutorials\Tutorial2-1.v4p" locked="0">
-   <BOUNDS type="Window" left="645" top="1305" width="13455" height="11700">
+   <BOUNDS type="Window" left="645" top="1305" width="14010" height="12510">
    </BOUNDS>
    <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="InABox" id="6">
    <BOUNDS type="Node" left="3915" top="8025" width="100" height="100">
@@ -41,7 +41,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8475" top="1335" width="4335" height="1155">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Oh, there are some links missing in this patch.&lf;You see the SpiralSpread node, which creates a spread (a list) of 200 points that are then supplied to the Point node (via a Multiply node) to draw them. Let&apos;s rotate the spiral.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Tiens, on dirait qu&apos;il manque des links dans ce patch.&lf;Vous pouvez voir la node SpiralSpread, qui génère un spread (une liste) de 200 points qui sont ensuite envoyés à la node Point (via la node Multiply) afin d&apos;être rendus à l&apos;écran. Faisons tourner cette spirale !|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -75,7 +75,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8475" top="2910" width="4320" height="3135">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Start a link with a left click on the &apos;Output&apos; pin of the LFO node. Do not drag, just click on the pin and release the button, the link is started and follows the mouse now and you can place as many inbetween points as you like.&lf;&lf;Note how most of the inputs on the Transform node are now bigger, indicating that they would accept the connection.&lf;&lf;Hover the input pins of the Transform node with the mouse cursor to find the input labeled &apos;Rotate&apos; and left-click on it to finish the link.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Créez un lien avec un clic gauche à partir de la pin &apos;Output&apos; de la node LFO. Ne faites pas un clic-glissé, cliquez simplement sur la pin et lâchez le bouton ! Le link est créé et va suivre votre souris. Vous pouvez placer autant de points d&apos;encrage que vous le voulez.&lf;&lf;Vous remarquerez que les pins d&apos;entrée de la node Transform deviennent plus gros : cela vous indique qu&apos;ils peuvent accepter la connexion.&lf;&lf;Survolez les pins d&apos;entrée de la node Transform avec votre curseur jusqu&apos;à trouver celle nommée &apos;Rotate&apos; et cliquez dessus pour terminer le link.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -125,7 +125,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8475" top="6075" width="4380" height="2160">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Now start a link with a left click on the &apos;Output&apos; pin of the Transform node.&lf;&lf;Note how the first input pin on the Multiply node has grown to show you it is willing to accept the link.&lf;&lf;Finish the link with a left click on the that pin and you should see the spiral spin.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Maintenant, créez un lien partant de la sortie &apos;Output&apos; de la node Transform.&lf;&lf;Vous pouvez voir que la première pin d&apos;entrée de la node Multiply a grossi pour vous indiquer qu&apos;elle peut accepter la connexion. &lf;&lf;Terminez le lien en cliquant sur cette pin et vous devriez voir votre spirale tourner.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -175,7 +175,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="5925" top="795" width="4440" height="315">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Making Links.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Créer des links.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -291,7 +291,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8475" top="8340" width="4260" height="1995">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|To remove a link, first select it by clicking it with the left mouse button. Then click it with the right mouse button or press the DEL key to delete it.&lf;&lf;Also while making a link you can always press the right mouse button to cancel the operation.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Pour supprimer un lien, sélectionnez-le en faisant un clic-gauche dessus. Ensuite, faites un clic droit ou appuyez sur SUPPR pour le supprimer.&lf;&lf;Aussi, pendant la création d&apos;un lien, vous pouvez faire un clic droit pour l&apos;annuler.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -309,7 +309,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8475" top="10575" width="4200" height="345">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|For more details on linking nodes, see:|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Pour plus de détails sur les liens, lisez donc :|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -421,7 +421,7 @@
    <NODE systemname="LanguageChooser" filename="LanguageChooser.v4p" nodename="LanguageChooser.v4p" componentmode="InABox" id="107">
    <BOUNDS type="Node" left="2970" top="4290" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" width="3090" height="1395" left="270" top="240">
+   <BOUNDS type="Box" width="2985" height="1470" left="270" top="240">
    </BOUNDS>
    </NODE>
    </PATCH>
