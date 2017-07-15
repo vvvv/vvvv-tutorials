@@ -36,6 +36,13 @@ Comme vous pouvez le voir ci-dessous, un patch est composé de nodes (les boîte
 
 Suivez les nombres à droite et lisez les explications correspondantes pour changer les paramètres qui génèrent l'animation dans la fenêtre de rendu ci-dessous.
 </Français>
+<Spanish>
+Bienvenid@ a tus primeros pasos en vvvv. Antes de aprender a crear tus propios patches, en este tutorial aprenderás cómo interactuar con ellos.
+
+Como puedes ver abajo, un patch está formado por nodos(las cajas grises con texto) y links (las líneas negras que los unen). Pasa el ratón sobre un nodo y aparecerá una nota con su nombre completo. Pasa el ratón sobre los pins de entrada y salida de un nodo (los pequeños puntos negros) y verás sus nombres y valores actuales.
+
+Sigue los números y lee sus explicaciones en la parte derecha para aprender a cambiar algunos parámetros que conducen la animación del Renderer de abajo.
+</Spanish>
 </Entry>
 <Entry id="1" prefix="">
 <English>
@@ -53,6 +60,9 @@ Questo nodo è chiamato Bang IOBox (IOBox -> Box di Input ed Output). Questo è 
 <Français>
 Cette node s'appelle une IOBox Bang. Ici, elle est connectée à la pin Reset de la node LFO. Si vous faites un clic droit sur cette node, le LFO sera réinitialisé.
 </Français>
+<Spanish>
+Este nodo se llama Bang IOBox. Aquí está conectado a la entrada Reset del nodo LFO. Haz click derecho y el IOBox reseteará el LFO.
+</Spanish>
 </Entry>
 <Entry id="2" prefix="">
 <English>
@@ -70,6 +80,9 @@ Clicca e tieni premuto il tasto destro su Value IOBox e trascina il mouse in alt
 <Français>
 Maintenez un clic droit sur l'IOBox Value et faites glisser votre souris de bas en haut pour en changer la valeur. Celle-ci va définir le nombre de points générés par le TypoSpread. 
 </Français>
+<Spanish>
+Con el botón derecho del ratón presionado sobre el IOBox Value, arrastra el ratón hacia arriba y abajo para cambiar su valor. Este valor define la cantidad de puntos que genera el nodo TypoSpread.
+</Spanish>
 </Entry>
 <Entry id="3" prefix="">
 <English>
@@ -87,6 +100,9 @@ Clicca col tasto destro su Enumeration IOBox per scegliere un font, tipo di cara
 <Français>
 Faites un clic droit sur l'IOBox Enumeration pour choisir une police d'écriture.
 </Français>
+<Spanish>
+Haz click derecho en el IOBox Enumeration para elegir una fuente diferente.
+</Spanish>
 </Entry>
 <Entry id="4" prefix="">
 <English>
@@ -104,6 +120,9 @@ Ancora un Value IOBox. Per impostarlo su un valore in particolare (invece che tr
 <Français>
 Une fois encore, il s'agit d'une IOBox Value. Pour lui assigner directement une valeur (plutôt que de scroller), faites un double-clic gauche dessus, tapez un nombre et faites ENTRER. Cette valeur va définir le temps d'animation des points.
 </Français>
+<Spanish>
+Este es otro IOBox value. Para asignarle un determinado valor (sin tener que arrastrar el ratón) haz doble click izquierdo en él y escribe un número. Este valor define cuánto dura la animación entre las posiciones de los puntos.
+</Spanish>
 </Entry>
 <Entry id="5" prefix="">
 <English>
@@ -146,6 +165,14 @@ Faites un clic droit dessus et :
 - bougez la souris de gauche à droite pour faire varier la teinte.
 - maintenez la touche ALT et bougez la souris de bas en haut pour faire varirer la transparence (l'alpha).
 </Français>
+<Spanish>
+Y este es un IOBox Color.
+Presiona el boton derecho del ratón sobre él y:
+- mueve el ratón arriba y abajo para cambiar el brillo
+- pulsando CTRL mueve el ratón arriba y abajo para cambiar la saturación
+- mueve el ratón de izquierda a derecha para cambiar hue
+- pulsando ALT mueve el ratón arriba y abajo para cambiar la transparencia (alpha)
+</Spanish>
 </Entry>
 <Entry id="6" prefix="">
 <English>
@@ -163,6 +190,9 @@ Per altri dettagli su IOBox:
 <Français>
 Pour plus de détails sur les IOBoxes, voyez plutôt :
 </Français>
+<Spanish>
+Para otros detalles sobre IOBox:
+</Spanish>
 </Entry>
 <Entry id="7" prefix="">
   <English>
@@ -189,7 +219,13 @@ Scroller dans un patch :
 
 Utilisez la roulette de votre souris (maintenez ALT pour scroller verticalement), ou bien maintenez un clic droit dans n'importe quelle zone vide du patch et bougez votre pointeur.
   </Français>
+  <Spanish>
+Desplazamiento dentro del Patch:
+
+Usa la rueda del ratón (y presiona ALT para el desplazamiento horizontal) o haz click derecho en un área vacía y arrastra el ratón en cualquier dirección para ver las partes del patch que están fuera de los límites de la ventana.
+  </Spanish>
 </Entry>
 
 
 </Entries>
+
