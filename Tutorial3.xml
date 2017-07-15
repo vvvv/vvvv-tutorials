@@ -6,6 +6,7 @@
   <Russian>Как соединять nodes.</Russian>
   <Italiano>Creare link (Ovvero: come far comunicare tra loro i nodi)</Italiano>
   <Français>Créer des links.</Français>
+  <Spanish>Creando Links.</Spanish>
 </Entry>
 
 <Entry id="0" prefix="">
@@ -29,6 +30,10 @@ Mancano dei link in questa patch! Trovate il nodo SpiralSpread; questo genera un
 Tiens, on dirait qu'il manque des links dans ce patch.
 Vous pouvez voir la node SpiralSpread, qui génère un spread (une liste) de 200 points qui sont ensuite envoyés à la node Point (via la node Multiply) afin d'être rendus à l'écran. Faisons tourner cette spirale !
   </Français>
+  <Spanish>
+Vaya, en este patch faltan algunos link...
+Está el nodo SpiralSpread, que crea una spread (una lista) de 200 puntos que luego le pasa (a través del nodo Multiply) al nodo Point para que los dibuje. ¡Vamos a girar la espiral!.
+  </Spanish>
 </Entry>
 
 <Entry id="1" prefix="">
@@ -67,6 +72,13 @@ Vous remarquerez que les pins d'entrée de la node Transform deviennent plus gro
 
 Survolez les pins d'entrée de la node Transform avec votre curseur jusqu'à trouver celle nommée 'Rotate' et cliquez dessus pour terminer le link.
   </Français>
+  <Spanish>
+Inicia un link con un clic izquierdo en el pin 'Output' del nodo LFO. No arrastres, simplemente haz clic en el pin y suelta el botón, el link se inicia y persigue al ratón: haciendo click izquierdo puedes colocar tantos puntos intermedios como quieras.
+
+Observa cómo la mayoría de las entradas en el nodo Transform son ahora más grandes, esto indica que aceptarían la conexión.
+
+Recorre los pin de entrada del nodo Transform con el cursor del ratón para buscar la entrada rotulada 'Rotate' y haz clicK con el botón izquierdo sobre ella para finalizar el link.
+  </Spanish>
 </Entry>
 
 <Entry id="2" prefix="">
@@ -105,6 +117,13 @@ Vous pouvez voir que la première pin d'entrée de la node Multiply a grossi pou
 
 Terminez le lien en cliquant sur cette pin et vous devriez voir votre spirale tourner.
   </Français>
+  <Spanish>
+Ahora inicia un enlace con un clicK izquierdo en el pin 'Output' del nodo Transform.
+
+Observa cómo el primer pin de entrada del nodo Multiply ha crecido para mostrarte que está dispuesto a aceptar el enlace.
+
+Termina el link con un clic izquierdo en el pin y podrás ver el giro espiral.
+  </Spanish>
 </Entry>
 
 <Entry id="3" prefix="">
@@ -133,6 +152,11 @@ Pour supprimer un lien, sélectionnez-le en faisant un clic-gauche dessus. Ensui
 
 Aussi, pendant la création d'un lien, vous pouvez faire un clic droit pour l'annuler.
   </Français>
+  <Spanish>
+Para eliminar un link, primero selecciónalo haciendo click con el botón izquierdo del ratón. A continuación, haz click con el botón derecho del ratón o pulsa la tecla DEL para eliminarlo.
+
+También mientras estás creando un link siempre puedes presionar el botón derecho del ratón para cancelar la operación.
+  </Spanish>
 </Entry>
 
 <Entry id="4" prefix="">
@@ -151,5 +175,8 @@ Per altri dettagli su IOBox:
   <Français>
 Pour plus de détails sur les liens, lisez donc :
   </Français>
+  <Spanish>
+Para más detalles sobre los link entre nodos:
+  </Spanish>
 </Entry>
 </Entries>
