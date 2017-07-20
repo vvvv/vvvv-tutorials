@@ -1,4 +1,4 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.dtd" >
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
    <PATCH nodename="C:\Users\joreg\Documents\repos\vvvv-tutorials\Tutorial2.v4p" scrollx="0" scrolly="-2166" systemname="Tutorial1-2" filename="C:\Users\joreg\Documents\repos\vvvv-tutorials\Tutorial1-2.v4p">
    <BOUNDS type="Window" left="480" top="960" width="13815" height="14340">
    </BOUNDS>
@@ -9,7 +9,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="7965" top="3300" width="4470" height="3285">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Sur la node &lt;, survolez la deuxième entrée nommée &apos;Input 2&apos;. Vous voyez que cette pin a déjà une valeur assignée de 0.2. Afin de rendre cette valeur contrôlable via une IOBox, faites un clic gauche dessus pour commencer à créer un lien, puis faites un clic-milieu (ou ESPACE + Clic droit) pour créer une IOBox n&apos;importe où dans le patch. Vous verrez apparaître à côté de l&apos;IOBox une liste d&apos;options (Bang, Toggle, Press...) que vous pouvez ignorer pour l&apos;instant. Bougez la souris pour la faire disparaitre.&lf;&lf;Si vous changez cette valeur, vous remarquerez que plus ou moins de points vont être connectés.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|En el nodo &lt; pon el ratón sobre el segundo input llamado &apos;Input 2&apos; y verás que el pin tiene un valor de 0.2. Para controlar ese valor a través de un IOBox, haz clic izquierdo sobre el pin y mueve el ratón por el patch para crear un link desde el input, a continuación haz clic en el botón central (o presiona SPACE y haz click con el botón derecho del ratón): se creará un IOBox donde tengas el puntero del ratón. Además del IOBox aparecerá una lista de opciones (Bang, Toggle, Press...) que por ahora vamos a ignorar. Mueve el ratón un poco para que desaparezca.&lf;&lf;Observa que al cambiar este valor se conectan más o menos puntos.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -43,7 +43,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="7965" top="6675" width="4530" height="3660">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Pour changer la couleur des liens entre les points, survolez les entrées de la node Line et trouvez celle nommée &apos;Color&apos;. Une fois encore, faites un clic gauche pour commencer à tracer un lien et faites un clic-milieu n&apos;importe où dans le patch pour pour créer une IOBox Color.&lf;&lf;Maintenant, essayons de changer la largeur des lignes. Trouvez l&apos;entrée &apos;Width&apos; de la node Line et créez une IOBox comme vu précédemment, mais cette fois-ci, faites attention à la liste d&apos;options qui apparaît et choisissez &apos;Integer&apos; pour créer une IOBox qui n&apos;affichera que des nombres entiers.&lf;&lf;Changez la valeur de cette IOBox pour avoir des lignes plus épaisses.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Para cambiar el color de las líneas entre los puntos coloca el ratón sobre las entradas del nodo Line y busca la etiqueta &apos;Color&apos;. De nuevo, haz click en ese pin para iniciar un link y, a continuación, haz click central en cualquier sitio del patch y crearás un IOBox de color.&lf;&lf;Ahora vamos a cambiar el ancho de la línea. Encuentra la entrada &apos;Width&apos; en el nodo Line y crea un IOBox como antes, pero ahora observa las opciones del popup y elige &apos;Integer&apos; y tendrás un IOBox que permite operar en valores enteros.&lf;&lf;Cambia el valor en este IOBox para obtener líneas más gruesas.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -77,7 +77,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="7965" top="10470" width="4365" height="1920">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Enfin, changeons la forme des points dessinés. Après avoir trouvé la pin &apos;Type&apos; sur la node Point, créez une IOBox Enumeration comme vous l&apos;avez appris au dessus : faites un clic gauche sur l&apos;entrée et un clic milieu n&apos;importe où dans le patch. Faites ensuite un clic droit sur l&apos;IOBox pour choisir entre &apos;Rectangle&apos;, &apos;Triangle&apos; et &apos;Cercle&apos;.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Finalmente, vamos a cambiar la forma de los puntos: busca el input &apos;Type&apos; en el nodo Point y crea un IOBox tal como acabamos de aprender: Haz click izquierdo en en pin y, después clic central en cualquier parte del patch: obtendrás un IOBox enumeration. Haz click derecho en el IOBox para elegir entre &apos;Rectángulo, Triángulo, Círculo&apos;.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -127,7 +127,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="4275" top="660" width="5805" height="2475">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Ajouter des IOBoxes à un patch existant.&lf;&lf;Ne vous inquiétez pas si vous ne comprenez pas le fonctionnement de ce petit programme. Dans ce tutoriel, nous allons simplement apprendre comment ajouter des IOBoxes à un patch existant afin d&apos;influencer certains paramètres.&lf;&lf;Dans la fenêtre de rendu, vous voyez un nuage de points bougeant de façon aléatoire. Quand la distance séparant deux points est en dessous d&apos;un certain seuil, ceux-ci sont reliés par une ligne. Voyons ensemble comment manipuler cette animation...|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Añadiendo IOBoxes a un patch existente.&lf;&lf;No te preocupes si todavía no entiendes todo el patch. En este tutorial queremos enseñarte a agregar IOBoxes a un patch existente para controlar algunos de sus parámetros.&lf;&lf;En el Renderer se ve una nube de puntos aleatoria donde los puntos están conectados por una línea cuya longitud está por debajo de un cierto umbral. Vamos a ver cómo manipular un poco la animación ..|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -487,7 +487,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="7965" top="12915" width="4815" height="285">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Pour plus d&apos;infos sur les IOBoxes, lisez :|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Para otros detalles sobre IOBox:|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -521,9 +521,9 @@
    <LINK srcnodeid="101" srcpinname="OutputXY" dstnodeid="87" dstpinname="XY2">
    </LINK>
    <NODE systemname="Next" filename="%VVVV%\girlpower\Tutorials\Next.v4p" componentmode="Hidden" id="139" nodename="%VVVV%\girlpower\Tutorials\Next.v4p">
-   <BOUNDS type="Node" left="270" top="2025" width="100" height="100">
+   <BOUNDS type="Node" left="270" top="2325" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="270" top="2025" width="4800" height="3600">
+   <BOUNDS type="Box" left="270" top="2325" width="4800" height="3600">
    </BOUNDS>
    <BOUNDS type="Window" left="9570" top="1755" width="10290" height="7965">
    </BOUNDS>
@@ -531,9 +531,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="138" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Box" left="1335" top="1920" width="525" height="390">
+   <BOUNDS type="Box" left="1335" top="2220" width="525" height="390">
    </BOUNDS>
-   <BOUNDS type="Node" left="1335" top="1920" width="0" height="0">
+   <BOUNDS type="Node" left="1335" top="2220" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
    </PIN>
@@ -551,9 +551,9 @@
    <LINK srcnodeid="138" srcpinname="Y Output Value" dstnodeid="139" dstpinname="Open">
    </LINK>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="137" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="1950" top="1920" width="2220" height="270">
+   <BOUNDS type="Node" left="1950" top="2220" width="2220" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="1950" top="1920" width="1200" height="645">
+   <BOUNDS type="Box" left="1950" top="2220" width="1200" height="645">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|&lt; Rightclick for next Tutorial|">
    </PIN>
@@ -567,7 +567,7 @@
    <NODE systemname="LanguageChooser" filename="LanguageChooser.v4p" nodename="LanguageChooser.v4p" componentmode="InABox" id="136">
    <BOUNDS type="Node" left="2130" top="2595" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" width="2925" height="1485" left="210" top="285">
+   <BOUNDS type="Box" width="2925" height="1665" left="210" top="285">
    </BOUNDS>
    </NODE>
    </PATCH>

@@ -1,4 +1,4 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.dtd" >
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
    <PATCH nodename="C:\Users\joreg\Documents\repos\vvvv-tutorials\Tutorial3.v4p" scrollx="30" scrolly="-432" systemname="Tutorial2-1" filename="C:\Work\vvvv-tutorials\Tutorial2-1.v4p" locked="0">
    <BOUNDS type="Window" left="645" top="1305" width="14010" height="12510">
    </BOUNDS>
@@ -41,7 +41,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8475" top="1335" width="4335" height="1155">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Tiens, on dirait qu&apos;il manque des links dans ce patch.&lf;Vous pouvez voir la node SpiralSpread, qui génère un spread (une liste) de 200 points qui sont ensuite envoyés à la node Point (via la node Multiply) afin d&apos;être rendus à l&apos;écran. Faisons tourner cette spirale !|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Vaya, en este patch faltan algunos link...&lf;Está el nodo SpiralSpread, que crea una spread (una lista) de 200 puntos que luego le pasa (a través del nodo Multiply) al nodo Point para que los dibuje. ¡Vamos a girar la espiral!.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -75,7 +75,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8475" top="2910" width="4320" height="3135">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Créez un lien avec un clic gauche à partir de la pin &apos;Output&apos; de la node LFO. Ne faites pas un clic-glissé, cliquez simplement sur la pin et lâchez le bouton ! Le link est créé et va suivre votre souris. Vous pouvez placer autant de points d&apos;encrage que vous le voulez.&lf;&lf;Vous remarquerez que les pins d&apos;entrée de la node Transform deviennent plus gros : cela vous indique qu&apos;ils peuvent accepter la connexion.&lf;&lf;Survolez les pins d&apos;entrée de la node Transform avec votre curseur jusqu&apos;à trouver celle nommée &apos;Rotate&apos; et cliquez dessus pour terminer le link.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Inicia un link con un clic izquierdo en el pin &apos;Output&apos; del nodo LFO. No arrastres, simplemente haz clic en el pin y suelta el botón, el link se inicia y persigue al ratón: haciendo click izquierdo puedes colocar tantos puntos intermedios como quieras.&lf;&lf;Observa cómo la mayoría de las entradas en el nodo Transform son ahora más grandes, esto indica que aceptarían la conexión.&lf;&lf;Recorre los pin de entrada del nodo Transform con el cursor del ratón para buscar la entrada rotulada &apos;Rotate&apos; y haz clicK con el botón izquierdo sobre ella para finalizar el link.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -125,7 +125,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8475" top="6075" width="4380" height="2160">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Maintenant, créez un lien partant de la sortie &apos;Output&apos; de la node Transform.&lf;&lf;Vous pouvez voir que la première pin d&apos;entrée de la node Multiply a grossi pour vous indiquer qu&apos;elle peut accepter la connexion. &lf;&lf;Terminez le lien en cliquant sur cette pin et vous devriez voir votre spirale tourner.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Ahora inicia un enlace con un clicK izquierdo en el pin &apos;Output&apos; del nodo Transform.&lf;&lf;Observa cómo el primer pin de entrada del nodo Multiply ha crecido para mostrarte que está dispuesto a aceptar el enlace.&lf;&lf;Termina el link con un clic izquierdo en el pin y podrás ver el giro espiral.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -175,7 +175,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="5925" top="795" width="4440" height="315">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Créer des links.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Creando Links.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -202,7 +202,7 @@
    <PIN pinname="Size" slicecount="1" values="8">
    </PIN>
    </NODE>
-   <NODE systemname="SpiralSpread (Spreads 2d)" filename="%VVVV%\lib\packs\VL.CoreLib.VVVV.0.47.149-g29575610a3\vvvv\nodes\vl\VVVV.Spreads.vl" nodename="SpiralSpread (2d)" componentmode="Hidden" id="78">
+   <NODE systemname="SpiralSpread (Spreads 2d)" filename="%VVVV%\lib\packs\VL.CoreLib.VVVV.0.55.43-g436959e253\vvvv\nodes\vl\VVVV.Spreads.vl" nodename="SpiralSpread (2d)" componentmode="Hidden" id="78">
    <BOUNDS type="Node" left="4725" top="4620" width="100" height="100">
    </BOUNDS>
    <PIN pinname="OutputXY" visible="1">
@@ -291,7 +291,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8475" top="8340" width="4260" height="1995">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Pour supprimer un lien, sélectionnez-le en faisant un clic-gauche dessus. Ensuite, faites un clic droit ou appuyez sur SUPPR pour le supprimer.&lf;&lf;Aussi, pendant la création d&apos;un lien, vous pouvez faire un clic droit pour l&apos;annuler.|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Para eliminar un link, primero selecciónalo haciendo click con el botón izquierdo del ratón. A continuación, haz click con el botón derecho del ratón o pulsa la tecla DEL para eliminarlo.&lf;&lf;También mientras estás creando un link siempre puedes presionar el botón derecho del ratón para cancelar la operación.|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -309,7 +309,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8475" top="10575" width="4200" height="345">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Pour plus de détails sur les liens, lisez donc :|">
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Para más detalles sobre los link entre nodos:|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -375,9 +375,9 @@
    </LINKPOINT>
    </LINK>
    <NODE systemname="Next" filename="%VVVV%\girlpower\Tutorials\Next.v4p" componentmode="Hidden" id="110" nodename="%VVVV%\girlpower\Tutorials\Next.v4p">
-   <BOUNDS type="Node" left="600" top="2010" width="100" height="100">
+   <BOUNDS type="Node" left="600" top="2310" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="600" top="2010" width="4800" height="3600">
+   <BOUNDS type="Box" left="600" top="2310" width="4800" height="3600">
    </BOUNDS>
    <BOUNDS type="Window" left="9570" top="1755" width="10290" height="7965">
    </BOUNDS>
@@ -385,9 +385,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="109" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Box" left="1425" top="1905" width="525" height="390">
+   <BOUNDS type="Box" left="1425" top="2205" width="525" height="390">
    </BOUNDS>
-   <BOUNDS type="Node" left="1425" top="1905" width="0" height="0">
+   <BOUNDS type="Node" left="1425" top="2205" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
    </PIN>
@@ -405,9 +405,9 @@
    <LINK srcnodeid="109" srcpinname="Y Output Value" dstnodeid="110" dstpinname="Open">
    </LINK>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="108" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="2040" top="1875" width="2220" height="270">
+   <BOUNDS type="Node" left="2040" top="2175" width="2220" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="2040" top="1875" width="1200" height="645">
+   <BOUNDS type="Box" left="2040" top="2175" width="1200" height="645">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|&lt; Rightclick for next Tutorial|">
    </PIN>
@@ -421,7 +421,7 @@
    <NODE systemname="LanguageChooser" filename="LanguageChooser.v4p" nodename="LanguageChooser.v4p" componentmode="InABox" id="107">
    <BOUNDS type="Node" left="2970" top="4290" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" width="2985" height="1470" left="270" top="240">
+   <BOUNDS type="Box" width="3000" height="1665" left="270" top="240">
    </BOUNDS>
    </NODE>
    </PATCH>
