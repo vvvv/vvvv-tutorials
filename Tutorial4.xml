@@ -20,12 +20,17 @@ Patch внизу уже отрисовывает сетку из квадрат�
 Benissimo! Siamo pronti per creare i nodi!
 
 Questa patch disegna una griglia di Quad. Aggiungendo due nodi renderemo questo esempio interattivo: la dimensione di ciascun quadrato cambierà a seconda della distanza dal puntatore del mouse.
-</Italiano>
+  </Italiano>
 	<Français>
 BOOM ! Vous voilà enfin prêts à créer des nodes !
 
 Le patch ci-dessous dessine une grille de quads. En ajoutant simplement deux nodes, nous allons rendre les choses un peu plus interactives : selon la distance qui séparera chaque quad du pointeur de la souris, sa taille changera...
 	</Français>
+  <Spanish>
+¡Por fin hemos llegado!: ¡Cómo se crean los nodos!
+
+El patch de abajo dibuja una cuadrícula de Quads. Añadiendo dos nodos haremos el ejemplo más interactivo: dependiendo de la distancia de cada quad con el cursor del ratón su tamaño cambiará ...
+  </Spanish>
 </Entry>
 <Entry id="1" prefix="">
   <English>
@@ -53,10 +58,15 @@ Faites un double-clic gauche dans un endroit vide à côté de la node GridSprea
 
 Ensuite, en dessous de notre nouvelle node Mouse, double-cliquez à nouveau et créez une node 'Distance (2d)'.
 </Français>
+  <Spanish>
+Haz doble clic izquierdo en un espacio vacío junto al nodo GridSpread para abrir el buscador de nodos. Escribe 'Mouse' para filtrar la lista de nodos disponibles y elige la segunda opción llamada 'Mouse (Devices Window)' haciendo clic con el botón izquierdo del ratón. Prueba cómo ahora puedes simplemente arrastrar y soltar el nodo en un buen lugar del patch.
+
+A continuación, algo más abajo del nuevo nodo Mouse vuelve a hacer doble clic para crear un nodo llamado "Distance (2d)".
+  </Spanish>
 </Entry>
 <Entry id="2" prefix="">
   <English>
-Now connect the output of the GridSpread node to the first input of the Distance node and the 'PositionXY' output of the Mouse node to the second second input of the Distance node.
+Now connect the output of the GridSpread node to the first input of the Distance node and the 'PositionXY' output of the Mouse node to the second input of the Distance node.
 
 This will give you the distance between each of the grids points and the mouse position.
 
@@ -100,6 +110,15 @@ Si vous connectez la sortie Distance à la pin 'XYZ' de l'UniformScale, vous rem
 
 Plus bas encore, vous remarquerez que le rendu a changé. Bougez votre souris au-dessus de la fenêtre de rendu : les quads à faible distance du curseur rapetissent alors que les autres deviennent plus gros !
   </Français>
+  <Spanish>
+Ahora conecta la salida del nodo GridSpread a la primera entrada del nodo Distance y la salida 'PositionXY' del nodo Mouse a la segunda  entrada del nodo Distance.
+
+Esto te dará la distancia entre cada uno de los puntos de la cuadrícula y la posición del ratón.
+
+Cuando ahora conectes la salida 'Distance' a la entrada 'XYZ' del nodo UniformScale verás que la conexión existente entre ese piny el IOBox se elimina automáticamente porque cualquier entrada en vvvv solo puede aceptar una conexión!
+
+Además, verás que la representación ha cambiado. Mueve el ratón sobre el Renderer para ver cómo ahora los quads con poca distancia al cursor se dibujan más pequeños y todos los demás se dibujan más grandes.
+  </Spanish>
 </Entry>
 <Entry id="3" prefix="">
   <English>
@@ -137,6 +156,13 @@ Double-cliquez dans le patch, tapez 'map' et choisissez la première option : 'M
 
 Cherchez la pin d'entrée 'Destination Maximum' sur Map, faites un clic gauche puis un clic-milieu dans le patch pour créer une IOBox reliée à ce paramètre. Assignez-lui une valeur de 0.1 et bougez votre curseur sur la fenêtre de rendu pour voir les résultats.
   </Français>
+  <Spanish>
+Finalmente, coloquemos un nodo 'Map (Value)' entre el nodo Distance y UniformScale para controlar mejor cómo influye la distancia en el tamaño.
+
+Haz doble clic en el patch, escribe "map" y luego selecciona la primera opción: Map (Value). Conecta la salida del nodo Distance al pin 'Input' del nodo Map y el pin 'Output' del Map al pin de entrada XYZ del UniformScale (reemplazando el enlace existente anteriormente).
+
+Ahora identifica la entrada "Destination Maximum" en el nodo Map, haz click con el botón izquierdo del ratón y presiona el botón central del ratón en el patch para crear un IOBox para este parámetro. Cambia el valor a alrededor de 0,1 y luego mueve el ratón sobre el renderer para ver el resultado.
+  </Spanish>
 </Entry>
 <Entry id="4" prefix="">
   <English>
@@ -162,6 +188,11 @@ Se vuoi confrontare il tuo risultato con quello che avremmo voluto farti ottener
 Si vous voulez comparer votre résultat avec ce que nous avions en tête, vous pouvez scroller vers la droite : maintenez le bouton droit dans un endroit vide du patch et faites glisser vers la gauche.
 ----------&gt;
   </Français>
+  <Spanish>
+Si quieres comparar tu resultado con lo que esperamos que obtendrás, puedes desplazar el patch a la derecha:
+Presiona el botón derecho del ratón en un área vacía del patch y arrastra hacia la izquierda para mover el parch en esa dirección.
+----------&gt;
+  </Spanish>
 </Entry>
 <Entry id="5" prefix="">
   <English>
@@ -175,10 +206,13 @@ Für mehr Details zu Nodes, siehe:
   </Russian>
   <Italiano>
 Per altri dettagli sui nodi:
-</Italiano>
-<Français>
+  </Italiano>
+  <Français>
 Pour plus de détails sur les nodes :
 </Français>
+  <Spanish>
+Para más detalles sobre nodos:
+  </Spanish>
 </Entry>
 
 <Entry id="6" prefix="">
@@ -193,10 +227,13 @@ Weitere Tutorials gibt's online:
   </Russian>
   <Italiano>
 Altri tutorial sono disponibili online:
-</Italiano>
-<Français>
+  </Italiano>
+  <Français>
 D'autres tutos sont disponibles en ligne :
-</Français>
+  </Français>
+  <Spanish>
+Hay más tutoriales disponibles online:
+  </Spanish>
 </Entry>
 
 </Entries>

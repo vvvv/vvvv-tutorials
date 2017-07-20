@@ -37,6 +37,13 @@ Ne vous inquiétez pas si vous ne comprenez pas le fonctionnement de ce petit pr
 
 Dans la fenêtre de rendu, vous voyez un nuage de points bougeant de façon aléatoire. Quand la distance séparant deux points est en dessous d'un certain seuil, ceux-ci sont reliés par une ligne. Voyons ensemble comment manipuler cette animation...
 </Français>
+<Spanish>
+Añadiendo IOBoxes a un patch existente.
+
+No te preocupes si todavía no entiendes todo el patch. En este tutorial queremos enseñarte a agregar IOBoxes a un patch existente para controlar algunos de sus parámetros.
+
+En el Renderer se ve una nube de puntos aleatoria donde los puntos están conectados por una línea cuya longitud está por debajo de un cierto umbral. Vamos a ver cómo manipular un poco la animación .. 
+</Spanish>
 </Entry>
 <Entry id="1" prefix="">
 <English>
@@ -60,6 +67,11 @@ Sur la node &lt;, survolez la deuxième entrée nommée 'Input 2'. Vous voyez qu
 
 Si vous changez cette valeur, vous remarquerez que plus ou moins de points vont être connectés.
 </Français>
+<Spanish>
+En el nodo &lt; pon el ratón sobre el segundo input llamado 'Input 2' y verás que el pin tiene un valor de 0.2. Para controlar ese valor a través de un IOBox, haz clic izquierdo sobre el pin y mueve el ratón por el patch para crear un link desde el input, a continuación haz clic en el botón central (o presiona SPACE y haz click con el botón derecho del ratón): se creará un IOBox donde tengas el puntero del ratón. Además del IOBox aparecerá una lista de opciones (Bang, Toggle, Press...) que por ahora vamos a ignorar. Mueve el ratón un poco para que desaparezca.
+
+Observa que al cambiar este valor se conectan más o menos puntos.
+</Spanish>
 </Entry>
 <Entry id="2" prefix="">
 <English>
@@ -96,6 +108,13 @@ Maintenant, essayons de changer la largeur des lignes. Trouvez l'entrée 'Width'
 
 Changez la valeur de cette IOBox pour avoir des lignes plus épaisses.
 </Français>
+<Spanish>
+Para cambiar el color de las líneas entre los puntos coloca el ratón sobre las entradas del nodo Line y busca la etiqueta 'Color'. De nuevo, haz click en ese pin para iniciar un link y, a continuación, haz click central en cualquier sitio del patch y crearás un IOBox de color.
+
+Ahora vamos a cambiar el ancho de la línea. Encuentra la entrada 'Width' en el nodo Line y crea un IOBox como antes, pero ahora observa las opciones del popup y elige 'Integer' y tendrás un IOBox que permite operar en valores enteros.
+
+Cambia el valor en este IOBox para obtener líneas más gruesas. 
+</Spanish>
 </Entry>
 <Entry id="3" prefix="">
 <English>
@@ -113,6 +132,9 @@ Infine cambiamo la forma dei punti. Cercate il pin di input 'Type' sul nodo Poin
 <Français>
 Enfin, changeons la forme des points dessinés. Après avoir trouvé la pin 'Type' sur la node Point, créez une IOBox Enumeration comme vous l'avez appris au dessus : faites un clic gauche sur l'entrée et un clic milieu n'importe où dans le patch. Faites ensuite un clic droit sur l'IOBox pour choisir entre 'Rectangle', 'Triangle' et 'Cercle'.
 </Français>
+<Spanish>
+Finalmente, vamos a cambiar la forma de los puntos: busca el input 'Type' en el nodo Point y crea un IOBox tal como acabamos de aprender: Haz click izquierdo en en pin y, después clic central en cualquier parte del patch: obtendrás un IOBox enumeration. Haz click derecho en el IOBox para elegir entre 'Rectángulo, Triángulo, Círculo'. 
+</Spanish>
 </Entry>
 <Entry id="4" prefix="">
 <English>
@@ -130,6 +152,9 @@ Per altri dettagli su IOBox:
 <Français>
 Pour plus d'infos sur les IOBoxes, lisez :
 </Français>
+<Spanish>
+Para otros detalles sobre IOBox:
+</Spanish>
 </Entry>
 
 </Entries>
